@@ -14,8 +14,8 @@ export default function HeroSection() {
           {/* Logo and Brand */}
           <div className="flex justify-center mb-8">
             <img 
-              src="/lovable-uploads/6d8cbf01-60ec-4d7f-9241-688a3d759756.png" 
-              alt="VKT Software Logo" 
+              src="/vkt-logo.svg" 
+              alt="VKT Software AI Logo" 
               className="w-24 h-24 object-contain drop-shadow-2xl"
             />
           </div>
@@ -59,14 +59,22 @@ export default function HeroSection() {
             <Button 
               size="lg" 
               className="bg-gradient-accent hover:opacity-90 text-foreground font-semibold text-lg px-10 py-4 h-auto shadow-glow transition-all duration-300 hover:scale-105"
+              onClick={() => {
+                const el = document.getElementById('contact');
+                if (el) el.scrollIntoView({ behavior: 'smooth' });
+              }}
             >
               Yêu cầu tư vấn miễn phí
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button 
               variant="outline" 
-              size="lg" 
-              className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm text-lg px-10 py-4 h-auto transition-all duration-300"
+              size="lg"
+              className="bg-gradient-accent hover:opacity-90 text-foreground font-semibold text-lg px-10 py-4 h-auto shadow-glow transition-all duration-300 hover:scale-105"
+              onClick={() => {
+                const el = document.getElementById('services');
+                if (el) el.scrollIntoView({ behavior: 'smooth' });
+              }}
             >
               Tìm hiểu dịch vụ
             </Button>

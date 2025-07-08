@@ -1,0 +1,15 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="40" rx="10" fill="#fff"/>
+  <text x="10" y="28" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="bold" fill="#2563eb">VKT</text>
+  <!-- Symbole AI: cerveau stylisé avec réseau de points -->
+  <g transform="translate(65,7)">
+    <ellipse cx="15" cy="13" rx="13" ry="11" fill="#e0e7ef"/>
+    <circle cx="8" cy="10" r="2" fill="#2563eb"/>
+    <circle cx="22" cy="10" r="2" fill="#2563eb"/>
+    <circle cx="15" cy="20" r="2" fill="#2563eb"/>
+    <circle cx="15" cy="13" r="1.5" fill="#2563eb"/>
+    <line x1="8" y1="10" x2="15" y2="13" stroke="#2563eb" stroke-width="1"/>
+    <line x1="22" y1="10" x2="15" y2="13" stroke="#2563eb" stroke-width="1"/>
+    <line x1="15" y1="20" x2="15" y2="13" stroke="#2563eb" stroke-width="1"/>
+  </g>
+</svg> 

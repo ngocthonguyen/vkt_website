@@ -33,8 +33,8 @@ export default function Header() {
           <div className="flex-shrink-0">
             <div className="flex items-center space-x-3">
               <img 
-                src="/lovable-uploads/6d8cbf01-60ec-4d7f-9241-688a3d759756.png" 
-                alt="VKT Software Logo" 
+                src="/vkt-logo.svg" 
+                alt="VKT Software AI Logo" 
                 className="w-10 h-10 object-contain"
               />
               <div className="flex flex-col">
@@ -80,7 +80,14 @@ export default function Header() {
               </DropdownMenuContent>
             </DropdownMenu>
             
-            <Button className="bg-gradient-accent hover:opacity-90 transition-all duration-300 shadow-medium hover:shadow-glow">
+            <Button className="bg-gradient-accent hover:opacity-90 transition-all duration-300 shadow-medium hover:shadow-glow"
+              onClick={() => {
+                const el = document.getElementById('contact');
+                if (el) {
+                  el.scrollIntoView({ behavior: 'smooth' });
+                }
+              }}
+            >
               Liên hệ ngay
             </Button>
           </div>
@@ -131,7 +138,14 @@ export default function Header() {
                     ))}
                   </DropdownMenuContent>
                 </DropdownMenu>
-                <Button size="sm" className="bg-gradient-primary">
+                <Button size="sm" className="bg-gradient-primary"
+                  onClick={() => {
+                    const el = document.getElementById('contact');
+                    if (el) {
+                      el.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                >
                   Liên hệ
                 </Button>
               </div>

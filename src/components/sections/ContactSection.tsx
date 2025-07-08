@@ -15,14 +15,49 @@ export default function ContactSection() {
     message: ''
   });
   const { toast } = useToast();
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSuccess, setIsSuccess] = useState(false);
+  const [isError, setIsError] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    toast({
-      title: "Cảm ơn bạn đã liên hệ!",
-      description: "Chúng tôi sẽ phản hồi trong vòng 24 giờ.",
-    });
-    setFormData({ name: '', email: '', phone: '', message: '' });
+    setIsSubmitting(true);
+    setIsSuccess(false);
+    setIsError(false);
+    try {
+      const response = await fetch('https://formspree.io/f/xdkzrdjb', {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      if (response.ok) {
+        setIsSuccess(true);
+        toast({
+          title: "Cảm ơn bạn đã liên hệ!",
+          description: "Chúng tôi sẽ phản hồi trong vòng 24 giờ.",
+        });
+        setFormData({ name: '', email: '', phone: '', message: '' });
+      } else {
+        setIsError(true);
+        toast({
+          title: "Gửi thất bại!",
+          description: "Vui lòng thử lại hoặc liên hệ trực tiếp qua email.",
+          variant: "destructive"
+        });
+      }
+    } catch (err) {
+      setIsError(true);
+      toast({
+        title: "Gửi thất bại!",
+        description: "Vui lòng thử lại hoặc liên hệ trực tiếp qua email.",
+        variant: "destructive"
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -108,9 +143,9 @@ export default function ContactSection() {
                   />
                 </div>
                 
-                <Button type="submit" size="lg" className="w-full bg-gradient-primary">
+                <Button type="submit" size="lg" className="w-full bg-gradient-primary" disabled={isSubmitting}>
                   <Send className="mr-2 h-5 w-5" />
-                  Gửi yêu cầu tư vấn
+                  {isSubmitting ? 'Đang gửi...' : 'Gửi yêu cầu tư vấn'}
                 </Button>
               </form>
             </CardContent>
@@ -141,7 +176,7 @@ export default function ContactSection() {
                     </div>
                     <div>
                       <p className="font-medium text-foreground">Hotline/Zalo</p>
-                      <p className="text-muted-foreground">0901 234 567</p>
+                      <p className="text-muted-foreground">0783 1980 78</p>
                     </div>
                   </div>
                   
@@ -151,7 +186,7 @@ export default function ContactSection() {
                     </div>
                     <div>
                       <p className="font-medium text-foreground">Địa chỉ</p>
-                      <p className="text-muted-foreground">123 Nguyễn Văn Cừ, Hà Nội</p>
+                      <p className="text-muted-foreground">265/56 Ngọc Thuỵ, Bồ Đề, Hà Nội</p>
                     </div>
                   </div>
                   
@@ -178,10 +213,10 @@ export default function ContactSection() {
                   cho doanh nghiệp của bạn.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3">
-                  <Button className="flex-1 bg-gradient-primary">
-                    Gọi ngay: 0901 234 567
+                  <Button className="flex-1 bg-gradient-primary" onClick={() => { window.location.href = 'tel:0783198078'; }}>
+                    Gọi ngay: 0783 1980 78
                   </Button>
-                  <Button variant="outline" className="flex-1">
+                  <Button variant="outline" className="flex-1" onClick={() => { window.open('https://zalo.me/0783198078', '_blank'); }}>
                     Chat Zalo
                   </Button>
                 </div>

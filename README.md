@@ -1,58 +1,50 @@
-# Welcome to your Lovable project
+# VKT Software
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/20e77c58-a28e-4c75-b8bc-409a7f1a764e
+**URL**: https://vktsoftware.com
 
-## How can I edit this code?
+## Comment éditer ce code ?
 
-There are several ways of editing your application.
+**Utiliser votre IDE préféré**
 
-**Use Lovable**
+Clonez ce dépôt et poussez vos modifications. Les changements seront reflétés sur le site VKT Software.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/20e77c58-a28e-4c75-b8bc-409a7f1a764e) and start prompting.
+La seule exigence est d'avoir Node.js & npm installés - [installer avec nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Suivez ces étapes :
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Étape 1 : Cloner le dépôt avec l'URL Git du projet.
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Étape 2 : Aller dans le dossier du projet.
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# Étape 3 : Installer les dépendances.
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Étape 4 : Démarrer le serveur de développement avec rechargement automatique.
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+**Éditer un fichier directement sur GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- Naviguez jusqu'au fichier souhaité.
+- Cliquez sur le bouton "Edit" (icône crayon) en haut à droite.
+- Faites vos modifications et validez-les.
 
-**Use GitHub Codespaces**
+**Utiliser GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Naviguez sur la page principale du dépôt.
+- Cliquez sur le bouton "Code" (vert) en haut à droite.
+- Sélectionnez l'onglet "Codespaces".
+- Cliquez sur "New codespace" pour lancer un nouvel environnement.
+- Modifiez les fichiers et poussez vos changements.
 
-## What technologies are used for this project?
+## Technologies utilisées
 
-This project is built with:
+Ce projet utilise :
 
 - Vite
 - TypeScript
@@ -60,14 +52,10 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## Déploiement
 
-Simply open [Lovable](https://lovable.dev/projects/20e77c58-a28e-4c75-b8bc-409a7f1a764e) and click on Share -> Publish.
+Utilisez votre pipeline CI/CD ou hébergement préféré pour déployer le site.
 
-## Can I connect a custom domain to my Lovable project?
+## Domaine personnalisé
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Configurez votre domaine personnalisé via votre hébergeur ou service DNS.

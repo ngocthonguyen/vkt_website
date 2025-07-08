@@ -1,6 +1,8 @@
 import { Code, Zap, Settings, Cloud, Globe, TrendingUp } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { useState } from "react";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 
 const services = [
   {
@@ -47,7 +49,107 @@ const services = [
   }
 ];
 
+const servicePopups = [
+  {
+    content: (
+      <>
+        <p>
+          <strong>Phát triển phần mềm theo yêu cầu</strong> giúp doanh nghiệp sở hữu giải pháp công nghệ phù hợp 100% với quy trình vận hành thực tế. VKT Software đồng hành từ khâu phân tích nghiệp vụ, thiết kế giao diện thân thiện, đến triển khai và bảo hành lâu dài.
+        </p>
+        <ul className="mt-4 space-y-2">
+          <li>• Phân tích chi tiết nhu cầu và quy trình của doanh nghiệp</li>
+          <li>• Thiết kế UI/UX hiện đại, dễ sử dụng</li>
+          <li>• Lập trình, kiểm thử, triển khai tận nơi</li>
+          <li>• Bảo hành, bảo trì và nâng cấp theo yêu cầu</li>
+        </ul>
+        <p className="mt-4 text-primary font-semibold">Giải pháp tối ưu cho doanh nghiệp muốn tăng hiệu quả, giảm chi phí và kiểm soát tốt hơn!</p>
+      </>
+    )
+  },
+  {
+    content: (
+      <>
+        <p>
+          <strong>Chuyển đổi số</strong> là xu hướng tất yếu giúp doanh nghiệp tiết kiệm chi phí, tăng tốc độ xử lý và kiểm soát dữ liệu tốt hơn. VKT Software tư vấn lộ trình chuyển đổi số phù hợp, triển khai toàn diện từ khảo sát, đào tạo đến vận hành.
+        </p>
+        <ul className="mt-4 space-y-2">
+          <li>• Khảo sát hiện trạng, phân tích điểm mạnh/yếu</li>
+          <li>• Xây dựng lộ trình chuyển đổi số từng bước</li>
+          <li>• Đào tạo nhân viên, chuyển giao công nghệ</li>
+          <li>• Hỗ trợ vận hành, tối ưu liên tục</li>
+        </ul>
+        <p className="mt-4 text-primary font-semibold">Đồng hành cùng doanh nghiệp trên hành trình số hoá thành công!</p>
+      </>
+    )
+  },
+  {
+    content: (
+      <>
+        <p>
+          <strong>Tối ưu hoá quy trình</strong> giúp doanh nghiệp tự động hoá các bước lặp lại, giảm sai sót và tiết kiệm thời gian. VKT Software phân tích quy trình, tư vấn giải pháp tự động hoá thông minh, nâng cao hiệu suất làm việc.
+        </p>
+        <ul className="mt-4 space-y-2">
+          <li>• Phân tích quy trình vận hành hiện tại</li>
+          <li>• Đề xuất giải pháp tự động hoá phù hợp</li>
+          <li>• Lập trình, tích hợp hệ thống</li>
+          <li>• Đào tạo, hỗ trợ vận hành</li>
+        </ul>
+        <p className="mt-4 text-primary font-semibold">Tối ưu nguồn lực, tăng năng suất, giảm chi phí vận hành!</p>
+      </>
+    )
+  },
+  {
+    content: (
+      <>
+        <p>
+          <strong>Giải pháp hệ thống CNTT</strong> toàn diện cho doanh nghiệp SME: ERP, CRM, quản lý email, dữ liệu, bảo mật, làm việc từ xa... VKT Software tư vấn, triển khai và bảo trì hệ thống phù hợp ngân sách và nhu cầu thực tế.
+        </p>
+        <ul className="mt-4 space-y-2">
+          <li>• Tư vấn lựa chọn giải pháp phù hợp</li>
+          <li>• Triển khai, tích hợp hệ thống</li>
+          <li>• Đào tạo sử dụng, hỗ trợ kỹ thuật</li>
+          <li>• Bảo trì định kỳ, nâng cấp mở rộng</li>
+        </ul>
+        <p className="mt-4 text-primary font-semibold">Đảm bảo hệ thống vận hành ổn định, bảo mật và hiệu quả!</p>
+      </>
+    )
+  },
+  {
+    content: (
+      <>
+        <p>
+          <strong>Thiết kế website & marketing</strong> giúp doanh nghiệp xây dựng hình ảnh chuyên nghiệp, thu hút khách hàng online. VKT Software thiết kế website responsive, tối ưu SEO, hỗ trợ quảng cáo và quản lý chiến dịch marketing hiệu quả.
+        </p>
+        <ul className="mt-4 space-y-2">
+          <li>• Thiết kế website hiện đại, chuẩn SEO</li>
+          <li>• Đáp ứng mọi thiết bị (mobile, desktop...)</li>
+          <li>• Tích hợp công cụ quảng cáo, quản lý chiến dịch</li>
+          <li>• Hỗ trợ vận hành, cập nhật nội dung</li>
+        </ul>
+        <p className="mt-4 text-primary font-semibold">Tăng trưởng khách hàng, nâng tầm thương hiệu trên môi trường số!</p>
+      </>
+    )
+  },
+  {
+    content: (
+      <>
+        <p>
+          <strong>Tư vấn chiến lược CNTT</strong> dành cho ban lãnh đạo doanh nghiệp muốn xây dựng chiến lược công nghệ dài hạn, phù hợp mục tiêu phát triển. VKT Software đồng hành từ hoạch định, xây dựng roadmap đến đánh giá hiệu quả đầu tư (ROI).
+        </p>
+        <ul className="mt-4 space-y-2">
+          <li>• Xây dựng chiến lược CNTT dài hạn</li>
+          <li>• Lập roadmap công nghệ, kế hoạch triển khai</li>
+          <li>• Đánh giá hiệu quả đầu tư (ROI)</li>
+          <li>• Tư vấn nâng cấp, chuyển đổi công nghệ</li>
+        </ul>
+        <p className="mt-4 text-primary font-semibold">Định hướng công nghệ vững chắc, phát triển bền vững!</p>
+      </>
+    )
+  },
+];
+
 export default function ServicesSection() {
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
   return (
     <section id="services" className="py-24 bg-gradient-to-br from-background via-secondary/20 to-background relative">
       {/* Background decorations */}
@@ -93,9 +195,21 @@ export default function ServicesSection() {
                     </li>
                   ))}
                 </ul>
-                <Button variant="outline" size="sm" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 border-primary/20">
+                <Button variant="outline" size="sm" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 border-primary/20"
+                  onClick={() => setOpenIndex(index)}
+                >
                   Tìm hiểu thêm
                 </Button>
+                {openIndex !== null && (
+                  <Dialog open={openIndex !== null} onOpenChange={open => setOpenIndex(open ? openIndex : null)}>
+                    <DialogContent>
+                      <DialogHeader>
+                        <DialogTitle>{services[openIndex].title}</DialogTitle>
+                      </DialogHeader>
+                      {servicePopups[openIndex].content}
+                    </DialogContent>
+                  </Dialog>
+                )}
               </CardContent>
             </Card>
           ))}
@@ -110,7 +224,12 @@ export default function ServicesSection() {
             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
               Liên hệ ngay để được tư vấn miễn phí và nhận báo giá chi tiết cho dự án của bạn.
             </p>
-            <Button size="lg" className="bg-gradient-accent hover:opacity-90 transition-all duration-300 hover:scale-105 shadow-glow text-lg px-10 py-4 h-auto">
+            <Button size="lg" className="bg-gradient-accent hover:opacity-90 transition-all duration-300 hover:scale-105 shadow-glow text-lg px-10 py-4 h-auto"
+              onClick={() => {
+                const el = document.getElementById('contact');
+                if (el) el.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               Nhận tư vấn miễn phí
             </Button>
           </div>
