@@ -49,45 +49,51 @@ const services = [
 
 export default function ServicesSection() {
   return (
-    <section id="services" className="py-20 bg-secondary/30">
-      <div className="container mx-auto px-4">
+    <section id="services" className="py-24 bg-gradient-to-br from-background via-secondary/20 to-background relative">
+      {/* Background decorations */}
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
+        <div className="absolute top-20 left-10 w-64 h-64 bg-gradient-primary rounded-full blur-3xl opacity-5"></div>
+        <div className="absolute bottom-20 right-10 w-80 h-80 bg-gradient-accent rounded-full blur-3xl opacity-5"></div>
+      </div>
+      
+      <div className="container mx-auto px-4 relative z-10">
         {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+        <div className="text-center mb-20">
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent">
             Dịch vụ của chúng tôi
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
             VKT Software chuyên cung cấp các giải pháp CNTT dành riêng cho các doanh nghiệp 
             nhỏ và vừa tại Việt Nam với chi phí hợp lý và chất lượng hàng đầu.
           </p>
         </div>
 
         {/* Services Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {services.map((service, index) => (
             <Card 
               key={index} 
-              className={`h-full hover:shadow-medium transition-all duration-300 hover:-translate-y-1 ${service.color}`}
+              className={`h-full hover:shadow-glow transition-all duration-500 hover:-translate-y-2 hover:scale-105 bg-gradient-card border-border/50 backdrop-blur-sm group`}
             >
-              <CardHeader>
-                <div className="w-12 h-12 rounded-lg bg-gradient-primary flex items-center justify-center mb-4">
-                  <service.icon className="h-6 w-6 text-primary-foreground" />
+              <CardHeader className="relative">
+                <div className="w-14 h-14 rounded-xl bg-gradient-primary flex items-center justify-center mb-6 shadow-medium group-hover:shadow-glow transition-all duration-300">
+                  <service.icon className="h-7 w-7 text-primary-foreground" />
                 </div>
-                <CardTitle className="text-xl mb-2">{service.title}</CardTitle>
-                <CardDescription className="text-muted-foreground leading-relaxed">
+                <CardTitle className="text-xl mb-3 text-foreground group-hover:text-primary transition-colors duration-300">{service.title}</CardTitle>
+                <CardDescription className="text-muted-foreground leading-relaxed text-base">
                   {service.description}
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2 mb-4">
+                <ul className="space-y-3 mb-6">
                   {service.features.map((feature, idx) => (
-                    <li key={idx} className="flex items-center gap-2 text-sm text-muted-foreground">
-                      <div className="w-1.5 h-1.5 rounded-full bg-primary"></div>
-                      {feature}
+                    <li key={idx} className="flex items-center gap-3 text-sm text-muted-foreground">
+                      <div className="w-2 h-2 rounded-full bg-gradient-accent shadow-sm"></div>
+                      <span className="font-medium">{feature}</span>
                     </li>
                   ))}
                 </ul>
-                <Button variant="outline" size="sm" className="w-full">
+                <Button variant="outline" size="sm" className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 border-primary/20">
                   Tìm hiểu thêm
                 </Button>
               </CardContent>
@@ -97,14 +103,14 @@ export default function ServicesSection() {
 
         {/* CTA Section */}
         <div className="text-center">
-          <div className="bg-gradient-card p-8 rounded-2xl shadow-soft max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold text-foreground mb-4">
+          <div className="bg-gradient-to-br from-background via-primary/5 to-accent/5 p-12 rounded-3xl shadow-glow max-w-4xl mx-auto border border-primary/10 backdrop-blur-sm">
+            <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               Cần tư vấn giải pháp phù hợp?
             </h3>
-            <p className="text-muted-foreground mb-6">
+            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
               Liên hệ ngay để được tư vấn miễn phí và nhận báo giá chi tiết cho dự án của bạn.
             </p>
-            <Button size="lg" className="bg-gradient-primary">
+            <Button size="lg" className="bg-gradient-accent hover:opacity-90 transition-all duration-300 hover:scale-105 shadow-glow text-lg px-10 py-4 h-auto">
               Nhận tư vấn miễn phí
             </Button>
           </div>

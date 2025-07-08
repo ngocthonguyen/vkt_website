@@ -26,16 +26,21 @@ export default function Header() {
   const [currentLanguage, setCurrentLanguage] = useState(languages[0]);
 
   return (
-    <header className="fixed top-0 w-full bg-background/95 backdrop-blur-md border-b border-border z-50">
+    <header className="fixed top-0 w-full bg-background/95 backdrop-blur-lg border-b border-border/50 z-50 shadow-soft">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">VKT</span>
+            <div className="flex items-center space-x-3">
+              <img 
+                src="/lovable-uploads/6d8cbf01-60ec-4d7f-9241-688a3d759756.png" 
+                alt="VKT Software Logo" 
+                className="w-10 h-10 object-contain"
+              />
+              <div className="flex flex-col">
+                <span className="text-xl font-bold text-foreground">VKT SOFTWARE</span>
+                <span className="text-xs text-muted-foreground tracking-wider uppercase">CNTT cho doanh nghiệp Việt Nam</span>
               </div>
-              <span className="text-xl font-bold text-foreground">VKT Software</span>
             </div>
           </div>
 
@@ -75,7 +80,7 @@ export default function Header() {
               </DropdownMenuContent>
             </DropdownMenu>
             
-            <Button className="bg-gradient-primary hover:opacity-90 transition-opacity">
+            <Button className="bg-gradient-accent hover:opacity-90 transition-all duration-300 shadow-medium hover:shadow-glow">
               Liên hệ ngay
             </Button>
           </div>
