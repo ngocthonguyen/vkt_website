@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 /* VKT Software Design System - Modern tech design inspired by logo */
-
 @layer base {
   :root {
     /* Base colors - Clean, modern whites and dark navy */
