@@ -1,0 +1,241 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "services": "Dịch vụ",
+    "about": "Về chúng tôi",
+    "contact": "Liên hệ"
+  },
+  "hero": {
+    "title": "VKT SOFTWARE",
+    "subtitle": "Giải pháp số hoá và phần mềm theo yêu cầu",
+    "desc": "Chúng tôi đồng hành cùng doanh nghiệp Việt trong hành trình chuyển đổi số, tối ưu hoá quy trình, và phát triển phần mềm theo yêu cầu với chi phí hợp lý và chất lượng hàng đầu.",
+    "cta1": "Yêu cầu tư vấn miễn phí",
+    "cta2": "Tìm hiểu dịch vụ",
+    "subdesc": "cho doanh nghiệp Việt Nam",
+    "value1": "Chi phí hợp lý",
+    "value2": "Chất lượng cao",
+    "value3": "Đồng hành lâu dài",
+    "experience": "20+ năm kinh nghiệm",
+    "experience_desc": "Từng làm việc tại Thụy Sĩ, Pháp, Singapore",
+    "expertise1": "Chuyên gia CNTT quốc tế",
+    "expertise2": "Kinh nghiệm ngân hàng lớn",
+    "expertise3": "Giải pháp thực tiễn"
+  },
+  "services": {
+    "title": "Dịch vụ của chúng tôi",
+    "desc": "Chúng tôi cung cấp các giải pháp toàn diện để giúp doanh nghiệp của bạn phát triển trong Kỷ\u00A0nguyên\u00A0số",
+    "learn_more": "Tìm hiểu thêm",
+    "cta_title": "Sẵn sàng bắt đầu dự án của bạn?",
+    "cta_desc": "Hãy liên hệ với chúng tôi để được tư vấn miễn phí và bắt đầu hành trình chuyển đổi số",
+    "cta_btn": "Liên hệ ngay",
+    "custom_software": {
+      "title": "Phần mềm theo yêu cầu",
+      "desc": "Phát triển phần mềm tùy chỉnh phù hợp với nhu cầu cụ thể của doanh nghiệp",
+      "features": [
+        "Phân tích yêu cầu chi tiết",
+        "Thiết kế UI/UX chuyên nghiệp",
+        "Phát triển full-stack",
+        "Kiểm thử và triển khai"
+      ],
+      "popup": {
+        "desc": "Chúng tôi chuyên phát triển phần mềm theo yêu cầu với công nghệ hiện đại và quy trình chuyên nghiệp.",
+        "details": [
+          "Phân tích yêu cầu và tư vấn giải pháp",
+          "Thiết kế kiến trúc hệ thống",
+          "Phát triển frontend và backend",
+          "Tích hợp cơ sở dữ liệu",
+          "Kiểm thử chất lượng toàn diện",
+          "Triển khai và bảo trì"
+        ],
+        "benefit": "Giải pháp tối ưu cho quy trình kinh doanh của bạn"
+      }
+    },
+    "digital_transformation": {
+      "title": "Chuyển đổi số",
+      "desc": "Hỗ trợ doanh nghiệp chuyển đổi từ quy trình thủ công sang số hóa",
+      "features": [
+        "Đánh giá hiện trạng",
+        "Lập kế hoạch chuyển đổi",
+        "Triển khai từng bước",
+        "Đào tạo nhân viên"
+      ],
+      "popup": {
+        "desc": "Chuyển đổi số là xu hướng tất yếu trong thời đại công nghệ. Chúng tôi giúp bạn thực hiện quá trình này một cách hiệu quả.",
+        "details": [
+          "Phân tích quy trình hiện tại",
+          "Xác định điểm cần cải thiện",
+          "Thiết kế giải pháp số hóa",
+          "Triển khai hệ thống mới",
+          "Đào tạo và hỗ trợ nhân viên",
+          "Giám sát và tối ưu liên tục"
+        ],
+        "benefit": "Tăng hiệu quả hoạt động và giảm chi phí vận hành"
+      }
+    },
+    "process_optimization": {
+      "title": "Tối ưu hóa quy trình",
+      "desc": "Cải thiện hiệu suất và giảm chi phí thông qua tối ưu hóa quy trình",
+      "features": [
+        "Phân tích quy trình hiện tại",
+        "Xác định điểm nghẽn",
+        "Thiết kế quy trình mới",
+        "Triển khai và giám sát"
+      ],
+      "popup": {
+        "desc": "Quy trình tối ưu là chìa khóa thành công của mọi doanh nghiệp. Chúng tôi giúp bạn xây dựng quy trình hiệu quả.",
+        "details": [
+          "Khảo sát và phân tích quy trình",
+          "Xác định các điểm không hiệu quả",
+          "Thiết kế quy trình tối ưu",
+          "Triển khai giải pháp tự động hóa",
+          "Đào tạo nhân viên",
+          "Giám sát và cải tiến liên tục"
+        ],
+        "benefit": "Tăng năng suất và giảm lãng phí"
+      }
+    },
+    "it_solutions": {
+      "title": "Giải pháp CNTT",
+      "desc": "Cung cấp các giải pháp công nghệ thông tin toàn diện cho doanh nghiệp",
+      "features": [
+        "Tư vấn công nghệ",
+        "Triển khai hệ thống",
+        "Bảo trì và nâng cấp",
+        "Hỗ trợ kỹ thuật"
+      ],
+      "popup": {
+        "desc": "Giải pháp CNTT phù hợp giúp doanh nghiệp vận hành hiệu quả và an toàn trong môi trường số.",
+        "details": [
+          "Đánh giá nhu cầu CNTT",
+          "Tư vấn giải pháp phù hợp",
+          "Triển khai hệ thống",
+          "Cấu hình bảo mật",
+          "Đào tạo sử dụng",
+          "Hỗ trợ kỹ thuật 24/7"
+        ],
+        "benefit": "Hệ thống CNTT ổn định và bảo mật"
+      }
+    },
+    "web_marketing": {
+      "title": "Marketing số",
+      "desc": "Chiến lược marketing số hiệu quả để tăng doanh thu và thương hiệu",
+      "features": [
+        "SEO và SEM",
+        "Social Media Marketing",
+        "Content Marketing",
+        "Email Marketing"
+      ],
+      "popup": {
+        "desc": "Marketing số là chìa khóa để doanh nghiệp tiếp cận khách hàng trong thời đại số.",
+        "details": [
+          "Phân tích thị trường và đối thủ",
+          "Xây dựng chiến lược marketing",
+          "Tối ưu hóa website và SEO",
+          "Quản lý mạng xã hội",
+          "Tạo nội dung hấp dẫn",
+          "Đo lường và phân tích kết quả"
+        ],
+        "benefit": "Tăng khả năng tiếp cận khách hàng và doanh thu"
+      }
+    },
+    "it_strategy": {
+      "title": "Chiến lược CNTT",
+      "desc": "Hoạch định chiến lược công nghệ thông tin dài hạn cho doanh nghiệp",
+      "features": [
+        "Phân tích hiện trạng",
+        "Lập kế hoạch chiến lược",
+        "Đánh giá rủi ro",
+        "Lộ trình triển khai"
+      ],
+      "popup": {
+        "desc": "Chiến lược CNTT đúng đắn giúp doanh nghiệp phát triển bền vững trong tương lai.",
+        "details": [
+          "Đánh giá năng lực CNTT hiện tại",
+          "Phân tích xu hướng công nghệ",
+          "Xây dựng tầm nhìn CNTT",
+          "Lập kế hoạch đầu tư",
+          "Đánh giá rủi ro và bảo mật",
+          "Lộ trình triển khai chi tiết"
+        ],
+        "benefit": "Định hướng phát triển CNTT bền vững"
+      }
+    }
+  },
+  "about": {
+    "title": "Về chúng tôi",
+    "subtitle": "Đội ngũ chuyên gia giàu kinh nghiệm",
+    "ceo_name": "Nguyễn Ngọc Thọ",
+    "ceo_title": "CEO & Founder",
+    "ceo_desc": "Chuyên gia CNTT với gần 20 năm kinh nghiệm",
+    "exp_title": "Kinh nghiệm quốc tế:",
+    "exp_desc": "Từng làm việc tại các ngân hàng và tập đoàn công nghệ lớn tại Thụy Sĩ, Pháp và Singapore.",
+    "specialty_title": "Chuyên môn:",
+    "specialty_desc": "Chuyển đổi số ngân hàng, kiến trúc sư giải pháp, quản lý dự án CNTT quy mô lớn.",
+    "mission_title": "Sứ mệnh:",
+    "mission_desc": "Mang kiến thức và kinh nghiệm quốc tế về Việt Nam, giúp doanh nghiệp SME tiếp cận công nghệ hiện đại với chi phí hợp lý.",
+    "commitment_title": "Cam kết của chúng tôi",
+    "value1_title": "Chất lượng hàng đầu",
+    "value1_desc": "Chúng tôi cam kết cung cấp các giải pháp chất lượng cao, được phát triển với công nghệ hiện đại và quy trình chuyên nghiệp.",
+    "value2_title": "Chi phí hợp lý",
+    "value2_desc": "Tối ưu hóa chi phí cho doanh nghiệp, đảm bảo ROI cao với các giải pháp hiệu quả và bền vững.",
+    "value3_title": "Hỗ trợ toàn diện",
+    "value3_desc": "Đồng hành cùng khách hàng từ giai đoạn tư vấn đến triển khai và bảo trì dài hạn.",
+    "why_title": "Tại sao chọn VKT Software?",
+    "why_subtitle": "Chúng tôi không chỉ cung cấp dịch vụ - chúng tôi tạo ra giá trị thực sự",
+    "stat1": "Dự án thành công",
+    "stat2": "Năm kinh nghiệm",
+    "stat3": "Khách hàng hài lòng",
+    "advantage1_title": "🎯 Giải pháp tùy chỉnh 100%",
+    "advantage1_desc": "Không có template sẵn - mỗi dự án được thiết kế riêng cho nhu cầu cụ thể của bạn",
+    "advantage2_title": "⚡ Triển khai nhanh chóng",
+    "advantage2_desc": "Từ ý tưởng đến sản phẩm trong 2-4 tuần với quy trình Agile chuyên nghiệp",
+    "advantage3_title": "💰 Tiết kiệm chi phí tối đa",
+    "advantage3_desc": "Chi phí tối ưu nhờ sử dụng hiệu quả các công cụ AI hiện đại",
+    "advantage4_title": "🛡️ Bảo mật tuyệt đối",
+    "advantage4_desc": "Tuân thủ tiêu chuẩn bảo mật quốc tế, bảo vệ dữ liệu khách hàng 24/7",
+    "advantage5_title": "🌍 Hỗ trợ đa ngôn ngữ",
+    "advantage5_desc": "Đội ngũ thông thạo tiếng Việt, Anh, Pháp - giao tiếp trực tiếp, không qua trung gian",
+    "advantage6_title": "📈 Tăng trưởng bền vững",
+    "advantage6_desc": "Không chỉ phát triển phần mềm - chúng tôi giúp doanh nghiệp bạn phát triển toàn diện"
+  },
+  "contact": {
+    "title": "Liên hệ với chúng tôi",
+    "desc": "Hãy liên hệ để được tư vấn miễn phí và bắt đầu dự án của bạn",
+    "form_title": "Gửi yêu cầu tư vấn",
+    "name_label": "Họ và tên",
+    "name_placeholder": "Nhập họ và tên của bạn",
+    "phone_label": "Số điện thoại",
+    "phone_placeholder": "Nhập số điện thoại",
+    "email_label": "Email",
+    "email_placeholder": "Nhập địa chỉ email",
+    "message_label": "Nội dung",
+    "message_placeholder": "Mô tả dự án hoặc yêu cầu của bạn...",
+    "submit_btn": "Gửi yêu cầu",
+    "sending": "Đang gửi...",
+    "success_title": "Gửi thành công!",
+    "success_desc": "Chúng tôi sẽ liên hệ lại trong thời gian sớm nhất.",
+    "error_title": "Có lỗi xảy ra",
+    "error_desc": "Vui lòng thử lại sau hoặc liên hệ trực tiếp qua điện thoại.",
+    "info_title": "Thông tin liên hệ",
+    "address_label": "Địa chỉ",
+    "free_consult_title": "Tư vấn miễn phí",
+    "free_consult_desc": "Liên hệ ngay để được tư vấn và báo giá miễn phí",
+    "call_now": "Gọi ngay",
+    "chat_zalo": "Chat Zalo",
+    "commitment_title": "Cam kết của chúng tôi",
+    "commitment1": "Tư vấn miễn phí 100%",
+    "commitment2": "Báo giá chi tiết và minh bạch",
+    "commitment3": "Hỗ trợ kỹ thuật 24/7",
+    "commitment4": "Bảo hành và bảo trì dài hạn"
+  },
+  "footer": {
+    "company_desc": "Chúng tôi đồng hành cùng doanh nghiệp Việt Nam trong hành trình chuyển đổi số, tối ưu hoá quy trình, và phát triển phần mềm theo yêu cầu với chi phí hợp lý và chất lượng hàng đầu.",
+    "services_title": "Dịch vụ",
+    "service1": "Phần mềm theo yêu cầu",
+    "service2": "Chuyển đổi số",
+    "service3": "Tối ưu hóa quy trình",
+    "service4": "Giải pháp CNTT",
+    "service5": "Marketing số",
+    "contact_title": "Liên hệ"
+  }
+} 

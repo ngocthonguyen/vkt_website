@@ -1,7 +1,9 @@
 import { ArrowRight, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useTranslation } from "react-i18next";
 
 export default function HeroSection() {
+  const { t } = useTranslation();
   return (
     <section id="home" className="pt-24 pb-20 bg-gradient-hero min-h-screen flex items-center relative overflow-hidden">
       {/* Decorative elements */}
@@ -22,35 +24,33 @@ export default function HeroSection() {
           
           {/* Main Heading */}
           <h1 className="text-4xl md:text-7xl font-bold leading-tight mb-6 bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent">
-            VKT SOFTWARE
+            {t('hero.title')}
             <span className="block text-3xl md:text-5xl mt-3 bg-gradient-accent bg-clip-text text-transparent">
-              Giải pháp số hoá và phần mềm theo yêu cầu
+              {t('hero.subtitle')}
             </span>
             <span className="block text-xl md:text-3xl mt-3 text-blue-100 font-normal">
-              cho doanh nghiệp Việt Nam
+              {t('hero.subdesc')}
             </span>
           </h1>
           
           {/* Description */}
           <p className="text-lg md:text-xl text-blue-100/90 mb-10 max-w-4xl mx-auto leading-relaxed">
-            Chúng tôi đồng hành cùng doanh nghiệp Việt trong hành trình chuyển đổi số, 
-            tối ưu hoá quy trình, và phát triển phần mềm theo yêu cầu với chi phí hợp lý 
-            và chất lượng hàng đầu.
+            {t('hero.desc')}
           </p>
 
           {/* Value Props */}
           <div className="grid md:grid-cols-3 gap-6 mb-12 max-w-3xl mx-auto">
             <div className="flex items-center justify-center gap-3 text-blue-100 bg-white/10 backdrop-blur-sm rounded-xl py-4 px-6 border border-white/20">
               <CheckCircle className="h-6 w-6 text-accent" />
-              <span className="font-medium">Chi phí hợp lý</span>
+              <span className="font-medium">{t('hero.value1')}</span>
             </div>
             <div className="flex items-center justify-center gap-3 text-blue-100 bg-white/10 backdrop-blur-sm rounded-xl py-4 px-6 border border-white/20">
               <CheckCircle className="h-6 w-6 text-accent" />
-              <span className="font-medium">Chất lượng cao</span>
+              <span className="font-medium">{t('hero.value2')}</span>
             </div>
             <div className="flex items-center justify-center gap-3 text-blue-100 bg-white/10 backdrop-blur-sm rounded-xl py-4 px-6 border border-white/20">
               <CheckCircle className="h-6 w-6 text-accent" />
-              <span className="font-medium">Đồng hành lâu dài</span>
+              <span className="font-medium">{t('hero.value3')}</span>
             </div>
           </div>
 
@@ -64,7 +64,7 @@ export default function HeroSection() {
                 if (el) el.scrollIntoView({ behavior: 'smooth' });
               }}
             >
-              Yêu cầu tư vấn miễn phí
+              {t('hero.cta1')}
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button 
@@ -76,27 +76,27 @@ export default function HeroSection() {
                 if (el) el.scrollIntoView({ behavior: 'smooth' });
               }}
             >
-              Tìm hiểu dịch vụ
+              {t('hero.cta2')}
             </Button>
           </div>
 
           {/* Trust Indicators */}
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20 max-w-4xl mx-auto">
             <p className="text-blue-100 mb-6 text-lg">
-              <span className="bg-gradient-accent bg-clip-text text-transparent font-bold">20+ năm kinh nghiệm</span> - Từng làm việc tại Thụy Sĩ, Pháp, Singapore
+              <span className="bg-gradient-accent bg-clip-text text-transparent font-bold">{t('hero.experience')}</span> - {t('hero.experience_desc')}
             </p>
             <div className="grid md:grid-cols-3 gap-4 text-blue-100/90">
               <div className="flex items-center justify-center gap-2">
                 <span className="text-accent text-xl">✓</span>
-                <span>Chuyên gia CNTT quốc tế</span>
+                <span>{t('hero.expertise1')}</span>
               </div>
               <div className="flex items-center justify-center gap-2">
                 <span className="text-accent text-xl">✓</span>
-                <span>Kinh nghiệm ngân hàng lớn</span>
+                <span>{t('hero.expertise2')}</span>
               </div>
               <div className="flex items-center justify-center gap-2">
                 <span className="text-accent text-xl">✓</span>
-                <span>Giải pháp thực tiễn</span>
+                <span>{t('hero.expertise3')}</span>
               </div>
             </div>
           </div>

@@ -1,6 +1,8 @@
 import { Mail, Phone, MapPin, Facebook } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation();
   return (
     <footer className="bg-foreground text-background py-12">
       <div className="container mx-auto px-4">
@@ -14,8 +16,7 @@ export default function Footer() {
               <span className="text-xl font-bold">VKT Software</span>
             </div>
             <p className="text-gray-300 mb-4 leading-relaxed">
-              Đối tác tin cậy trong chuyển đổi số và phát triển phần mềm cho doanh nghiệp Việt Nam. 
-              Chúng tôi mang đến giải pháp công nghệ thực tiễn với chi phí hợp lý.
+              {t('footer.company_desc')}
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-primary transition-colors">
@@ -29,19 +30,19 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h3 className="font-semibold mb-4">Dịch vụ</h3>
+            <h3 className="font-semibold mb-4">{t('footer.services_title')}</h3>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="#services" className="hover:text-primary transition-colors">Viết phần mềm theo yêu cầu</a></li>
-              <li><a href="#services" className="hover:text-primary transition-colors">Chuyển đổi số</a></li>
-              <li><a href="#services" className="hover:text-primary transition-colors">Tối ưu hoá quy trình</a></li>
-              <li><a href="#services" className="hover:text-primary transition-colors">Giải pháp CNTT</a></li>
-              <li><a href="#services" className="hover:text-primary transition-colors">Thiết kế website</a></li>
+              <li><a href="#services" className="hover:text-primary transition-colors">{t('footer.service1')}</a></li>
+              <li><a href="#services" className="hover:text-primary transition-colors">{t('footer.service2')}</a></li>
+              <li><a href="#services" className="hover:text-primary transition-colors">{t('footer.service3')}</a></li>
+              <li><a href="#services" className="hover:text-primary transition-colors">{t('footer.service4')}</a></li>
+              <li><a href="#services" className="hover:text-primary transition-colors">{t('footer.service5')}</a></li>
             </ul>
           </div>
 
           {/* Contact */}
           <div>
-            <h3 className="font-semibold mb-4">Liên hệ</h3>
+            <h3 className="font-semibold mb-4">{t('footer.contact_title')}</h3>
             <div className="space-y-3 text-gray-300">
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4" />
@@ -62,7 +63,7 @@ export default function Footer() {
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400">
-              © 2024 VKT Software. Bảo lưu mọi quyền.
+              © 2025 VKT Software. Bảo lưu mọi quyền.
             </p>
             <div className="flex space-x-6 text-gray-400">
               <a href="#" className="hover:text-primary transition-colors">Chính sách bảo mật</a>

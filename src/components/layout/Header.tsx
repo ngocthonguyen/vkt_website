@@ -7,6 +7,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { useTranslation } from "react-i18next";
 
 const languages = [
   { code: 'vi', name: 'Tiếng Việt', flag: '🇻🇳' },
@@ -14,16 +15,17 @@ const languages = [
   { code: 'fr', name: 'Français', flag: '🇫🇷' }
 ];
 
-const navigationItems = [
-  { name: 'Trang chủ', href: '#home' },
-  { name: 'Dịch vụ', href: '#services' },
-  { name: 'Về chúng tôi', href: '#about' },
-  { name: 'Liên hệ', href: '#contact' }
-];
-
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [currentLanguage, setCurrentLanguage] = useState(languages[0]);
+  const { i18n, t } = useTranslation();
+  const currentLanguage = languages.find(l => l.code === i18n.language) || languages[0];
+
+  const navigationItems = [
+    { name: t('nav.home'), href: '#home' },
+    { name: t('nav.services'), href: '#services' },
+    { name: t('nav.about'), href: '#about' },
+    { name: t('nav.contact'), href: '#contact' }
+  ];
 
   return (
     <header className="fixed top-0 w-full bg-background/95 backdrop-blur-lg border-b border-border/50 z-50 shadow-soft">
@@ -71,7 +73,7 @@ export default function Header() {
                 {languages.map((lang) => (
                   <DropdownMenuItem
                     key={lang.code}
-                    onClick={() => setCurrentLanguage(lang)}
+                    onClick={() => i18n.changeLanguage(lang.code)}
                     className="gap-2"
                   >
                     {lang.flag} {lang.name}
@@ -79,7 +81,6 @@ export default function Header() {
                 ))}
               </DropdownMenuContent>
             </DropdownMenu>
-            
             <Button className="bg-gradient-accent hover:opacity-90 transition-all duration-300 shadow-medium hover:shadow-glow"
               onClick={() => {
                 const el = document.getElementById('contact');
@@ -88,7 +89,7 @@ export default function Header() {
                 }
               }}
             >
-              Liên hệ ngay
+              {t('nav.contact')}
             </Button>
           </div>
 
@@ -130,7 +131,7 @@ export default function Header() {
                     {languages.map((lang) => (
                       <DropdownMenuItem
                         key={lang.code}
-                        onClick={() => setCurrentLanguage(lang)}
+                        onClick={() => i18n.changeLanguage(lang.code)}
                         className="gap-2"
                       >
                         {lang.flag} {lang.name}
@@ -146,7 +147,7 @@ export default function Header() {
                     }
                   }}
                 >
-                  Liên hệ
+                  {t('nav.contact')}
                 </Button>
               </div>
             </nav>
