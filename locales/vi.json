@@ -1,0 +1,363 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "services": "Dịch vụ",
+    "about": "Về chúng tôi",
+    "contact": "Liên hệ",
+    "pricing": "Bảng giá",
+    "portfolio": "Dự án",
+    "blog": "Blog",
+    "tagline": "CNTT cho doanh nghiệp Việt Nam"
+  },
+  "hero": {
+    "title": "VKT SOFTWARE",
+    "subtitle": "Giải pháp số hoá và phần mềm theo yêu cầu",
+    "desc": "Chúng tôi đồng hành cùng doanh nghiệp Việt trong hành trình chuyển đổi số, tối ưu hoá quy trình, và phát triển phần mềm theo yêu cầu với chi phí hợp lý và chất lượng hàng đầu.",
+    "cta1": "Yêu cầu tư vấn miễn phí",
+    "cta2": "Tìm hiểu dịch vụ",
+    "subdesc": "cho doanh nghiệp Việt Nam",
+    "value1": "Chi phí hợp lý",
+    "value2": "Chất lượng cao",
+    "value3": "Đồng hành lâu dài",
+    "experience": "20+ năm kinh nghiệm",
+    "experience_desc": "Từng làm việc tại Thụy Sĩ, Pháp, Singapore",
+    "expertise1": "Chuyên gia CNTT quốc tế",
+    "expertise2": "Kinh nghiệm ngân hàng lớn",
+    "expertise3": "Giải pháp thực tiễn"
+  },
+  "services": {
+    "title": "Dịch vụ của chúng tôi",
+    "desc": "Chúng tôi cung cấp các giải pháp toàn diện để giúp doanh nghiệp của bạn phát triển trong Kỷ\u00A0nguyên\u00A0số",
+    "learn_more": "Tìm hiểu thêm",
+    "cta_title": "Sẵn sàng bắt đầu dự án của bạn?",
+    "cta_desc": "Hãy liên hệ với chúng tôi để được tư vấn miễn phí và bắt đầu hành trình chuyển đổi số",
+    "cta_btn": "Liên hệ ngay",
+    "custom_software": {
+      "title": "Phần mềm theo yêu cầu",
+      "desc": "Phát triển phần mềm tùy chỉnh phù hợp với nhu cầu cụ thể của doanh nghiệp",
+      "features": [
+        "Phân tích yêu cầu chi tiết",
+        "Thiết kế UI/UX chuyên nghiệp",
+        "Phát triển full-stack",
+        "Kiểm thử và triển khai"
+      ],
+      "popup": {
+        "desc": "Chúng tôi chuyên phát triển phần mềm theo yêu cầu với công nghệ hiện đại và quy trình chuyên nghiệp.",
+        "details": [
+          "Phân tích yêu cầu và tư vấn giải pháp",
+          "Thiết kế kiến trúc hệ thống",
+          "Phát triển frontend và backend",
+          "Tích hợp cơ sở dữ liệu",
+          "Kiểm thử chất lượng toàn diện",
+          "Triển khai và bảo trì"
+        ],
+        "benefit": "Giải pháp tối ưu cho quy trình kinh doanh của bạn"
+      }
+    },
+    "digital_transformation": {
+      "title": "Chuyển đổi số",
+      "desc": "Hỗ trợ doanh nghiệp chuyển đổi từ quy trình thủ công sang số hóa",
+      "features": [
+        "Đánh giá hiện trạng",
+        "Lập kế hoạch chuyển đổi",
+        "Triển khai từng bước",
+        "Đào tạo nhân viên"
+      ],
+      "popup": {
+        "desc": "Chuyển đổi số là xu hướng tất yếu trong thời đại công nghệ. Chúng tôi giúp bạn thực hiện quá trình này một cách hiệu quả.",
+        "details": [
+          "Phân tích quy trình hiện tại",
+          "Xác định điểm cần cải thiện",
+          "Thiết kế giải pháp số hóa",
+          "Triển khai hệ thống mới",
+          "Đào tạo và hỗ trợ nhân viên",
+          "Giám sát và tối ưu liên tục"
+        ],
+        "benefit": "Tăng hiệu quả hoạt động và giảm chi phí vận hành"
+      }
+    },
+    "process_optimization": {
+      "title": "Tối ưu hóa quy trình",
+      "desc": "Cải thiện hiệu suất và giảm chi phí thông qua tối ưu hóa quy trình",
+      "features": [
+        "Phân tích quy trình hiện tại",
+        "Xác định điểm nghẽn",
+        "Thiết kế quy trình mới",
+        "Triển khai và giám sát"
+      ],
+      "popup": {
+        "desc": "Quy trình tối ưu là chìa khóa thành công của mọi doanh nghiệp. Chúng tôi giúp bạn xây dựng quy trình hiệu quả.",
+        "details": [
+          "Khảo sát và phân tích quy trình",
+          "Xác định các điểm không hiệu quả",
+          "Thiết kế quy trình tối ưu",
+          "Triển khai giải pháp tự động hóa",
+          "Đào tạo nhân viên",
+          "Giám sát và cải tiến liên tục"
+        ],
+        "benefit": "Tăng năng suất và giảm lãng phí"
+      }
+    },
+    "it_solutions": {
+      "title": "Giải pháp CNTT",
+      "desc": "Cung cấp các giải pháp công nghệ thông tin toàn diện cho doanh nghiệp",
+      "features": [
+        "Tư vấn công nghệ",
+        "Triển khai hệ thống",
+        "Bảo trì và nâng cấp",
+        "Hỗ trợ kỹ thuật"
+      ],
+      "popup": {
+        "desc": "Giải pháp CNTT phù hợp giúp doanh nghiệp vận hành hiệu quả và an toàn trong môi trường số.",
+        "details": [
+          "Đánh giá nhu cầu CNTT",
+          "Tư vấn giải pháp phù hợp",
+          "Triển khai hệ thống",
+          "Cấu hình bảo mật",
+          "Đào tạo sử dụng",
+          "Hỗ trợ kỹ thuật 24/7"
+        ],
+        "benefit": "Hệ thống CNTT ổn định và bảo mật"
+      }
+    },
+    "web_marketing": {
+      "title": "Marketing số",
+      "desc": "Chiến lược marketing số hiệu quả để tăng doanh thu và thương hiệu",
+      "features": [
+        "SEO và SEM",
+        "Social Media Marketing",
+        "Content Marketing",
+        "Email Marketing"
+      ],
+      "popup": {
+        "desc": "Marketing số là chìa khóa để doanh nghiệp tiếp cận khách hàng trong thời đại số.",
+        "details": [
+          "Phân tích thị trường và đối thủ",
+          "Xây dựng chiến lược marketing",
+          "Tối ưu hóa website và SEO",
+          "Quản lý mạng xã hội",
+          "Tạo nội dung hấp dẫn",
+          "Đo lường và phân tích kết quả"
+        ],
+        "benefit": "Tăng khả năng tiếp cận khách hàng và doanh thu"
+      }
+    },
+    "it_strategy": {
+      "title": "Chiến lược CNTT",
+      "desc": "Hoạch định chiến lược công nghệ thông tin dài hạn cho doanh nghiệp",
+      "features": [
+        "Phân tích hiện trạng",
+        "Lập kế hoạch chiến lược",
+        "Đánh giá rủi ro",
+        "Lộ trình triển khai"
+      ],
+      "popup": {
+        "desc": "Chiến lược CNTT đúng đắn giúp doanh nghiệp phát triển bền vững trong tương lai.",
+        "details": [
+          "Đánh giá năng lực CNTT hiện tại",
+          "Phân tích xu hướng công nghệ",
+          "Xây dựng tầm nhìn CNTT",
+          "Lập kế hoạch đầu tư",
+          "Đánh giá rủi ro và bảo mật",
+          "Lộ trình triển khai chi tiết"
+        ],
+        "benefit": "Định hướng phát triển CNTT bền vững"
+      }
+    }
+  },
+  "about": {
+    "title": "Về chúng tôi",
+    "subtitle": "Đội ngũ chuyên gia giàu kinh nghiệm",
+    "ceo_name": "Nguyễn Ngọc Thọ",
+    "ceo_title": "CEO & Founder",
+    "ceo_desc": "Chuyên gia CNTT với gần 20 năm kinh nghiệm",
+    "exp_title": "Kinh nghiệm quốc tế:",
+    "exp_desc": "Từng làm việc tại các ngân hàng và tập đoàn công nghệ lớn tại Thụy Sĩ, Pháp và Singapore.",
+    "specialty_title": "Chuyên môn:",
+    "specialty_desc": "Chuyển đổi số ngân hàng, kiến trúc sư giải pháp, quản lý dự án CNTT quy mô lớn.",
+    "mission_title": "Sứ mệnh:",
+    "mission_desc": "Mang kiến thức và kinh nghiệm quốc tế về Việt Nam, giúp doanh nghiệp SME tiếp cận công nghệ hiện đại với chi phí hợp lý.",
+    "commitment_title": "Cam kết của chúng tôi",
+    "value1_title": "Chất lượng hàng đầu",
+    "value1_desc": "Chúng tôi cam kết cung cấp các giải pháp chất lượng cao, được phát triển với công nghệ hiện đại và quy trình chuyên nghiệp.",
+    "value2_title": "Chi phí hợp lý",
+    "value2_desc": "Tối ưu hóa chi phí cho doanh nghiệp, đảm bảo ROI cao với các giải pháp hiệu quả và bền vững.",
+    "value3_title": "Hỗ trợ toàn diện",
+    "value3_desc": "Đồng hành cùng khách hàng từ giai đoạn tư vấn đến triển khai và bảo trì dài hạn.",
+    "why_title": "Tại sao chọn VKT Software?",
+    "why_subtitle": "Chúng tôi không chỉ cung cấp dịch vụ - chúng tôi tạo ra giá trị thực sự",
+    "stat1": "Dự án thành công",
+    "stat2": "Năm kinh nghiệm",
+    "stat3": "Khách hàng hài lòng",
+    "advantage1_title": "🎯 Giải pháp tùy chỉnh 100%",
+    "advantage1_desc": "Không có template sẵn - mỗi dự án được thiết kế riêng cho nhu cầu cụ thể của bạn",
+    "advantage2_title": "⚡ Triển khai nhanh chóng",
+    "advantage2_desc": "Từ ý tưởng đến sản phẩm trong 2-4 tuần với quy trình Agile chuyên nghiệp",
+    "advantage3_title": "💰 Tiết kiệm chi phí tối đa",
+    "advantage3_desc": "Chi phí tối ưu nhờ sử dụng hiệu quả các công cụ AI hiện đại",
+    "advantage4_title": "🛡️ Bảo mật tuyệt đối",
+    "advantage4_desc": "Tuân thủ tiêu chuẩn bảo mật quốc tế, bảo vệ dữ liệu khách hàng 24/7",
+    "advantage5_title": "🌍 Hỗ trợ đa ngôn ngữ",
+    "advantage5_desc": "Đội ngũ thông thạo tiếng Việt, Anh, Pháp - giao tiếp trực tiếp, không qua trung gian",
+    "advantage6_title": "📈 Tăng trưởng bền vững",
+    "advantage6_desc": "Không chỉ phát triển phần mềm - chúng tôi giúp doanh nghiệp bạn phát triển toàn diện"
+  },
+  "contact": {
+    "title": "Liên hệ với chúng tôi",
+    "desc": "Hãy liên hệ để được tư vấn miễn phí và bắt đầu dự án của bạn",
+    "form_title": "Gửi yêu cầu tư vấn",
+    "name_label": "Họ và tên",
+    "name_placeholder": "Nhập họ và tên của bạn",
+    "phone_label": "Số điện thoại",
+    "phone_placeholder": "Nhập số điện thoại",
+    "email_label": "Email",
+    "email_placeholder": "Nhập địa chỉ email",
+    "message_label": "Nội dung",
+    "message_placeholder": "Mô tả dự án hoặc yêu cầu của bạn...",
+    "submit_btn": "Gửi yêu cầu",
+    "sending": "Đang gửi...",
+    "success_title": "Gửi thành công!",
+    "success_desc": "Chúng tôi sẽ liên hệ lại trong thời gian sớm nhất.",
+    "error_title": "Có lỗi xảy ra",
+    "error_desc": "Vui lòng thử lại sau hoặc liên hệ trực tiếp qua điện thoại.",
+    "info_title": "Thông tin liên hệ",
+    "address_label": "Địa chỉ",
+    "free_consult_title": "Tư vấn miễn phí",
+    "free_consult_desc": "Liên hệ ngay để được tư vấn và báo giá miễn phí",
+    "call_now": "Gọi ngay",
+    "chat_zalo": "Chat Zalo",
+    "commitment_title": "Cam kết của chúng tôi",
+    "commitment1": "Tư vấn miễn phí 100%",
+    "commitment2": "Báo giá chi tiết và minh bạch",
+    "commitment3": "Hỗ trợ kỹ thuật 24/7",
+    "commitment4": "Bảo hành và bảo trì dài hạn"
+  },
+  "footer": {
+    "company_desc": "Chúng tôi đồng hành cùng doanh nghiệp Việt Nam trong hành trình chuyển đổi số, tối ưu hoá quy trình, và phát triển phần mềm theo yêu cầu với chi phí hợp lý và chất lượng hàng đầu.",
+    "services_title": "Dịch vụ",
+    "service1": "Phần mềm theo yêu cầu",
+    "service2": "Chuyển đổi số",
+    "service3": "Tối ưu hóa quy trình",
+    "service4": "Giải pháp CNTT",
+    "service5": "Marketing số",
+    "contact_title": "Liên hệ",
+    "rights": "Bảo lưu mọi quyền."
+  },
+  "pricing": {
+    "title": "Bảng giá dịch vụ",
+    "subtitle": "Giải pháp phù hợp cho mọi quy mô doanh nghiệp",
+    "starter": {
+      "name": "Gói Starter",
+      "price": "3–8 triệu/dự án",
+      "desc": "Dành cho hộ kinh doanh, cửa hàng nhỏ",
+      "features": [
+        "Website cơ bản, landing page",
+        "SEO cơ bản",
+        "Email doanh nghiệp",
+        "Setup Google Workspace"
+      ]
+    },
+    "business": {
+      "name": "Gói Business",
+      "price": "15–50 triệu/dự án",
+      "popular": "Phổ biến nhất",
+      "desc": "Dành cho doanh nghiệp 5–50 nhân viên",
+      "features": [
+        "App quản lý bán hàng, kho hàng",
+        "CRM đơn giản",
+        "Chatbot AI",
+        "Báo cáo tự động"
+      ]
+    },
+    "enterprise": {
+      "name": "Gói AI Transform",
+      "price": "50–200 triệu",
+      "desc": "Dành cho doanh nghiệp muốn chuyển đổi số nghiêm túc",
+      "features": [
+        "AI Agents tùy chỉnh",
+        "Tự động hóa quy trình toàn diện",
+        "Tích hợp hệ thống",
+        "Số hóa end-to-end"
+      ]
+    },
+    "addons_title": "Dịch vụ bổ sung",
+    "addon1": "Bảo trì & support hàng tháng: 2–5 triệu/tháng",
+    "addon2": "Hosting & domain management",
+    "addon3": "Training nhân viên sử dụng phần mềm",
+    "addon4": "Tư vấn chiến lược chuyển đổi số",
+    "cta": "Liên hệ tư vấn miễn phí"
+  },
+  "portfolio": {
+    "title": "Dự án của chúng tôi",
+    "subtitle": "Các dự án đã và đang triển khai",
+    "status_active": "Đang triển khai",
+    "status_completed": "Đã hoàn thành",
+    "tech_label": "Công nghệ",
+    "features_label": "Tính năng chính",
+    "projects": {
+      "anh_tuyet": {
+        "name": "Ánh Tuyết Cosmetics App",
+        "desc": "App bán hàng mỹ phẩm đa nền tảng (Web + iOS + Android)",
+        "tech": ["React", "React Native", "Supabase", "Barcode Scanning"],
+        "features": [
+          "Quản lý sản phẩm và đơn hàng",
+          "Quản lý khách hàng",
+          "Quét barcode",
+          "Báo cáo doanh thu"
+        ]
+      },
+      "pickleball": {
+        "name": "Pickleball Community App",
+        "desc": "Mạng xã hội cộng đồng pickleball Việt Nam",
+        "tech": ["React", "Firebase", "Spring Boot"],
+        "features": [
+          "Hồ sơ người chơi",
+          "Tìm sân & đặt lịch",
+          "Bảng xếp hạng",
+          "Cộng đồng"
+        ]
+      },
+      "vkt_website": {
+        "name": "Website VKT Software",
+        "desc": "Website doanh nghiệp đa ngôn ngữ (Việt/Anh/Pháp)",
+        "tech": ["Next.js", "React", "Tailwind", "Vercel"],
+        "features": [
+          "Responsive design",
+          "SEO-optimized",
+          "Đa ngôn ngữ",
+          "Contact form"
+        ]
+      }
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Chia sẻ kiến thức và kinh nghiệm về chuyển đổi số",
+    "read_more": "Đọc tiếp",
+    "back_to_blog": "Quay lại Blog",
+    "share": "Chia sẻ",
+    "posts": {
+      "chuyen-doi-so-2026": {
+        "title": "5 lý do doanh nghiệp nhỏ cần chuyển đổi số ngay trong 2026",
+        "excerpt": "Chuyển đổi số không còn là lựa chọn mà là yêu cầu bắt buộc. Khám phá 5 lý do quan trọng nhất.",
+        "date": "2026-04-10",
+        "author": "Nguyễn Ngọc Thọ",
+        "content": "## Tại sao chuyển đổi số là cấp thiết?\n\nTrong bối cảnh kinh tế số phát triển mạnh mẽ, doanh nghiệp nhỏ không thể đứng ngoài cuộc chơi. Dưới đây là 5 lý do quan trọng:\n\n### 1. Khách hàng đã chuyển đổi số\n\nHơn 70% người tiêu dùng Việt Nam mua sắm online. Nếu doanh nghiệp bạn chưa có mặt trên môi trường số, bạn đang mất đi phần lớn khách hàng tiềm năng.\n\n### 2. Giảm chi phí vận hành\n\nTự động hóa các quy trình thủ công có thể giảm đến 40% chi phí vận hành. Từ quản lý kho, đơn hàng đến chăm sóc khách hàng - tất cả đều có thể được số hóa.\n\n### 3. Tăng năng suất lao động\n\nCông cụ số giúp nhân viên làm việc hiệu quả hơn. Một nhân viên với công cụ phù hợp có thể làm được công việc của 3-4 người.\n\n### 4. Dữ liệu là tài sản\n\nKhi mọi thứ được số hóa, bạn có dữ liệu để đưa ra quyết định chính xác. Không còn đoán mò, không còn quyết định cảm tính.\n\n### 5. AI đang thay đổi cuộc chơi\n\nAI không còn xa vời. Với chi phí hợp lý, doanh nghiệp nhỏ có thể tận dụng AI để tự động hóa, phân tích và dự đoán.\n\n## Bắt đầu từ đâu?\n\nKhông cần đầu tư hàng tỷ đồng. Bắt đầu từ những bước nhỏ: website chuyên nghiệp, quản lý khách hàng số, và tự động hóa quy trình cơ bản.\n\n**VKT Software** sẵn sàng đồng hành cùng bạn trong hành trình này. Liên hệ ngay để được tư vấn miễn phí!"
+      },
+      "chi-phi-lam-app": {
+        "title": "Chi phí làm app bán hàng: Bao nhiêu là hợp lý?",
+        "excerpt": "Tìm hiểu chi phí thực tế để phát triển một app bán hàng phù hợp với doanh nghiệp SME tại Việt Nam.",
+        "date": "2026-04-05",
+        "author": "Nguyễn Ngọc Thọ",
+        "content": "## Chi phí làm app bán hàng tại Việt Nam\n\nMột trong những câu hỏi phổ biến nhất mà chúng tôi nhận được: \"Làm app bán hàng tốn bao nhiêu tiền?\". Câu trả lời phụ thuộc vào nhiều yếu tố.\n\n### Các yếu tố ảnh hưởng chi phí\n\n**1. Phạm vi tính năng**\n- App cơ bản (danh mục, giỏ hàng, thanh toán): 15-30 triệu\n- App trung bình (thêm CRM, báo cáo, quét barcode): 30-50 triệu\n- App nâng cao (AI, tích hợp ERP, đa nền tảng): 50-200 triệu\n\n**2. Nền tảng**\n- Chỉ web: Chi phí thấp nhất\n- Web + Mobile (React Native): Tăng khoảng 30-50%\n- Native iOS + Android riêng: Gấp đôi chi phí\n\n**3. Thiết kế**\n- Template sẵn: Tiết kiệm chi phí\n- Thiết kế tùy chỉnh: Thêm 5-15 triệu\n\n### So sánh với giải pháp có sẵn\n\n| Giải pháp | Chi phí/tháng | Hạn chế |\n|-----------|---------------|--------|\n| Shopee/Lazada | 0-5% doanh thu | Phụ thuộc nền tảng |\n| SaaS (Sapo, KiotViet) | 200k-2tr | Ít tùy chỉnh |\n| App riêng | 2-5tr bảo trì | Đầu tư ban đầu cao hơn |\n\n### Lời khuyên của VKT Software\n\nĐừng chỉ nhìn vào chi phí ban đầu. Hãy tính ROI dài hạn. Một app được thiết kế đúng sẽ:\n- Giảm chi phí vận hành\n- Tăng doanh thu nhờ trải nghiệm khách hàng tốt hơn\n- Cung cấp dữ liệu quý giá cho quyết định kinh doanh\n\nLiên hệ VKT Software để được tư vấn và báo giá chi tiết!"
+      },
+      "ai-cho-doanh-nghiep": {
+        "title": "AI cho doanh nghiệp nhỏ: Không còn xa vời",
+        "excerpt": "AI không chỉ dành cho tập đoàn lớn. Doanh nghiệp nhỏ hoàn toàn có thể ứng dụng AI với chi phí hợp lý.",
+        "date": "2026-03-28",
+        "author": "Nguyễn Ngọc Thọ",
+        "content": "## AI đã đến gần hơn bao giờ hết\n\nNhiều chủ doanh nghiệp nhỏ nghĩ rằng AI là thứ chỉ dành cho Google, Facebook hay các tập đoàn lớn. Nhưng thực tế đã thay đổi hoàn toàn.\n\n### Ứng dụng AI thực tế cho SME\n\n**1. Chatbot chăm sóc khách hàng**\n- Trả lời tự động 24/7\n- Xử lý 80% câu hỏi thường gặp\n- Chi phí: 2-5 triệu/tháng thay vì thuê nhân viên\n\n**2. Tự động hóa quy trình**\n- Nhập liệu tự động từ hóa đơn, chứng từ\n- Phân loại email và yêu cầu khách hàng\n- Tạo báo cáo tự động\n\n**3. Phân tích dữ liệu kinh doanh**\n- Dự đoán nhu cầu hàng hóa\n- Phân tích hành vi khách hàng\n- Tối ưu giá bán\n\n**4. Marketing thông minh**\n- Tạo nội dung với AI\n- Cá nhân hóa trải nghiệm khách hàng\n- Tối ưu quảng cáo tự động\n\n### Chi phí triển khai AI\n\nVới sự phát triển của các nền tảng AI, chi phí đã giảm đáng kể:\n- Chatbot cơ bản: 3-8 triệu setup + 500k-2tr/tháng\n- AI Agent tùy chỉnh: 15-50 triệu\n- Tích hợp AI toàn diện: Theo dự án\n\n### Bắt đầu với AI như thế nào?\n\n1. **Xác định pain point** - Công việc nào tốn nhiều thời gian nhất?\n2. **Bắt đầu nhỏ** - Chọn 1 quy trình để thử nghiệm\n3. **Đo lường kết quả** - So sánh trước và sau\n4. **Mở rộng dần** - Khi thấy hiệu quả, áp dụng cho các quy trình khác\n\nVKT Software chuyên tư vấn và triển khai giải pháp AI cho doanh nghiệp SME. Liên hệ ngay để được tư vấn miễn phí!"
+      }
+    }
+  }
+}

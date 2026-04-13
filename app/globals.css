@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* VKT Software Design System - Modern tech design inspired by logo */
+@layer base {
+  :root {
+    /* Base colors - Clean, modern whites and dark navy */
+    --background: 0 0% 100%;
+    --foreground: 215 28% 17%;
+
+    /* Card components */
+    --card: 0 0% 100%;
+    --card-foreground: 215 28% 17%;
+
+    /* Popover components */
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 28% 17%;
+
+    /* Primary brand colors - Modern blue/teal gradient from logo */
+    --primary: 205 86% 57%;
+    --primary-foreground: 0 0% 98%;
+    --primary-hover: 205 86% 47%;
+    --primary-light: 205 86% 67%;
+
+    /* Secondary colors - Complementary teal */
+    --secondary: 210 20% 96%;
+    --secondary-foreground: 215 28% 17%;
+
+    /* Muted colors */
+    --muted: 210 20% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    /* Accent colors - Gold/orange from logo text */
+    --accent: 43 84% 65%;
+    --accent-foreground: 215 28% 17%;
+
+    /* Status colors */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    /* Border and input */
+    --border: 210 20% 90%;
+    --input: 210 20% 90%;
+    --ring: 205 86% 57%;
+
+    /* Modern gradients inspired by logo */
+    --gradient-primary: linear-gradient(135deg, hsl(205 86% 57%), hsl(188 94% 57%));
+    --gradient-hero: linear-gradient(135deg, hsl(215 28% 17%), hsl(205 86% 27%), hsl(188 94% 47%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(210 20% 98%));
+    --gradient-accent: linear-gradient(135deg, hsl(43 84% 65%), hsl(36 100% 62%));
+
+    /* Modern shadows with brand colors */
+    --shadow-soft: 0 2px 15px hsl(205 86% 57% / 0.08);
+    --shadow-medium: 0 8px 35px hsl(205 86% 57% / 0.12);
+    --shadow-strong: 0 20px 50px hsl(205 86% 57% / 0.15);
+    --shadow-glow: 0 0 40px hsl(205 86% 57% / 0.3);
+
+    /* Animation transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact",
+    "pricing": "Pricing",
+    "portfolio": "Projects",
+    "blog": "Blog",
+    "tagline": "IT for Vietnamese businesses"
+  },
+  "hero": {
+    "title": "VKT SOFTWARE",
+    "subtitle": "Digital solutions & custom software",
+    "desc": "We accompany Vietnamese businesses in digital transformation, process optimization, and custom software development with reasonable costs and top quality.",
+    "cta1": "Request free consultation",
+    "cta2": "Learn more services",
+    "subdesc": "for Vietnamese businesses",
+    "value1": "Reasonable cost",
+    "value2": "High quality",
+    "value3": "Long-term partnership",
+    "experience": "20+ years of experience",
+    "experience_desc": "Previously worked in Switzerland, France, Singapore",
+    "expertise1": "International IT expert",
+    "expertise2": "Major banking experience",
+    "expertise3": "Practical solutions"
+  },
+  "services": {
+    "title": "Our Services",
+    "desc": "We provide comprehensive solutions to help your business grow in the digital era",
+    "learn_more": "Learn More",
+    "cta_title": "Ready to start your project?",
+    "cta_desc": "Contact us for free consultation and start your digital transformation journey",
+    "cta_btn": "Contact Now",
+    "custom_software": {
+      "title": "Custom Software",
+      "desc": "Develop custom software tailored to your business specific needs",
+      "features": ["Detailed requirement analysis", "Professional UI/UX design", "Full-stack development", "Testing and deployment"],
+      "popup": {
+        "desc": "We specialize in custom software development with modern technology and professional processes.",
+        "details": ["Requirement analysis and solution consulting", "System architecture design", "Frontend and backend development", "Database integration", "Comprehensive quality testing", "Deployment and maintenance"],
+        "benefit": "Optimal solution for your business processes"
+      }
+    },
+    "digital_transformation": {
+      "title": "Digital Transformation",
+      "desc": "Support businesses in transforming from manual to digital processes",
+      "features": ["Current state assessment", "Transformation planning", "Step-by-step implementation", "Staff training"],
+      "popup": {
+        "desc": "Digital transformation is an inevitable trend in the technology era. We help you implement this process effectively.",
+        "details": ["Analyze current processes", "Identify improvement points", "Design digital solutions", "Implement new systems", "Train and support staff", "Continuous monitoring and optimization"],
+        "benefit": "Increase operational efficiency and reduce costs"
+      }
+    },
+    "process_optimization": {
+      "title": "Process Optimization",
+      "desc": "Improve performance and reduce costs through process optimization",
+      "features": ["Current process analysis", "Bottleneck identification", "New process design", "Implementation and monitoring"],
+      "popup": {
+        "desc": "Optimized processes are the key to success for every business. We help you build efficient processes.",
+        "details": ["Survey and analyze processes", "Identify inefficient points", "Design optimal processes", "Implement automation solutions", "Train staff", "Continuous monitoring and improvement"],
+        "benefit": "Increase productivity and reduce waste"
+      }
+    },
+    "it_solutions": {
+      "title": "IT Solutions",
+      "desc": "Provide comprehensive information technology solutions for businesses",
+      "features": ["Technology consulting", "System implementation", "Maintenance and upgrades", "Technical support"],
+      "popup": {
+        "desc": "Suitable IT solutions help businesses operate efficiently and safely in the digital environment.",
+        "details": ["Assess IT needs", "Consult suitable solutions", "Implement systems", "Configure security", "Usage training", "24/7 technical support"],
+        "benefit": "Stable and secure IT systems"
+      }
+    },
+    "web_marketing": {
+      "title": "Digital Marketing",
+      "desc": "Effective digital marketing strategies to increase revenue and brand",
+      "features": ["SEO and SEM", "Social Media Marketing", "Content Marketing", "Email Marketing"],
+      "popup": {
+        "desc": "Digital marketing is the key for businesses to reach customers in the digital age.",
+        "details": ["Market and competitor analysis", "Build marketing strategy", "Website and SEO optimization", "Social media management", "Create engaging content", "Measure and analyze results"],
+        "benefit": "Increase customer reach and revenue"
+      }
+    },
+    "it_strategy": {
+      "title": "IT Strategy",
+      "desc": "Long-term information technology strategy planning for businesses",
+      "features": ["Current state analysis", "Strategic planning", "Risk assessment", "Implementation roadmap"],
+      "popup": {
+        "desc": "Proper IT strategy helps businesses develop sustainably in the future.",
+        "details": ["Assess current IT capabilities", "Analyze technology trends", "Build IT vision", "Investment planning", "Risk and security assessment", "Detailed implementation roadmap"],
+        "benefit": "Sustainable IT development direction"
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Experienced expert team",
+    "ceo_name": "Nguyen Ngoc Tho",
+    "ceo_title": "CEO & Founder",
+    "ceo_desc": "IT expert with nearly 20 years of experience",
+    "exp_title": "International experience:",
+    "exp_desc": "Previously worked at major banks and technology corporations in Switzerland, France and Singapore.",
+    "specialty_title": "Specialty:",
+    "specialty_desc": "Banking digital transformation, solution architect, large-scale IT project management.",
+    "mission_title": "Mission:",
+    "mission_desc": "Bring international knowledge and experience to Vietnam, helping SMEs access modern technology at reasonable costs.",
+    "commitment_title": "Our Commitment",
+    "value1_title": "Top Quality",
+    "value1_desc": "We commit to providing high-quality solutions, developed with modern technology and professional processes.",
+    "value2_title": "Reasonable Cost",
+    "value2_desc": "Optimize costs for businesses, ensuring high ROI with effective and sustainable solutions.",
+    "value3_title": "Comprehensive Support",
+    "value3_desc": "Accompany customers from consultation to implementation and long-term maintenance.",
+    "why_title": "Why choose VKT Software?",
+    "why_subtitle": "We don't just provide services - we create real value",
+    "stat1": "Successful projects",
+    "stat2": "Years of experience",
+    "stat3": "Satisfied customers",
+    "advantage1_title": "🎯 100% Custom Solutions",
+    "advantage1_desc": "No ready-made templates - each project is designed specifically for your needs",
+    "advantage2_title": "⚡ Rapid Deployment",
+    "advantage2_desc": "From idea to product in 2-4 weeks with professional Agile methodology",
+    "advantage3_title": "💰 Maximum Cost Savings",
+    "advantage3_desc": "Optimized costs thanks to efficient use of modern AI tools",
+    "advantage4_title": "🛡️ Absolute Security",
+    "advantage4_desc": "Compliant with international security standards, 24/7 customer data protection",
+    "advantage5_title": "🌍 Multi-language Support",
+    "advantage5_desc": "Team fluent in Vietnamese, English, French - direct communication, no intermediaries",
+    "advantage6_title": "📈 Sustainable Growth",
+    "advantage6_desc": "Not just software development - we help your business grow comprehensively"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "desc": "Contact us for free consultation and start your project",
+    "form_title": "Send Consultation Request",
+    "name_label": "Full Name",
+    "name_placeholder": "Enter your full name",
+    "phone_label": "Phone Number",
+    "phone_placeholder": "Enter your phone number",
+    "email_label": "Email",
+    "email_placeholder": "Enter your email address",
+    "message_label": "Message",
+    "message_placeholder": "Describe your project or requirements...",
+    "submit_btn": "Send Request",
+    "sending": "Sending...",
+    "success_title": "Sent Successfully!",
+    "success_desc": "We will contact you back as soon as possible.",
+    "error_title": "An error occurred",
+    "error_desc": "Please try again later or contact directly by phone.",
+    "info_title": "Contact Information",
+    "address_label": "Address",
+    "free_consult_title": "Free Consultation",
+    "free_consult_desc": "Contact now for free consultation and quote",
+    "call_now": "Call Now",
+    "chat_zalo": "Chat Zalo",
+    "commitment_title": "Our Commitment",
+    "commitment1": "100% free consultation",
+    "commitment2": "Detailed and transparent pricing",
+    "commitment3": "24/7 technical support",
+    "commitment4": "Long-term warranty and maintenance"
+  },
+  "footer": {
+    "company_desc": "We accompany Vietnamese businesses in digital transformation, process optimization, and custom software development with reasonable costs and top quality.",
+    "services_title": "Services",
+    "service1": "Custom Software",
+    "service2": "Digital Transformation",
+    "service3": "Process Optimization",
+    "service4": "IT Solutions",
+    "service5": "Digital Marketing",
+    "contact_title": "Contact",
+    "rights": "All rights reserved."
+  },
+  "pricing": {
+    "title": "Service Pricing",
+    "subtitle": "Solutions tailored to every business size",
+    "starter": {
+      "name": "Starter Package",
+      "price": "3-8M VND/project",
+      "desc": "For small businesses and shops",
+      "features": ["Basic website, landing page", "Basic SEO", "Business email", "Google Workspace setup"]
+    },
+    "business": {
+      "name": "Business Package",
+      "price": "15-50M VND/project",
+      "popular": "Most Popular",
+      "desc": "For businesses with 5-50 employees",
+      "features": ["Sales & inventory management app", "Simple CRM", "AI Chatbot", "Automated reports"]
+    },
+    "enterprise": {
+      "name": "AI Transform Package",
+      "price": "50-200M VND",
+      "desc": "For businesses serious about digital transformation",
+      "features": ["Custom AI Agents", "End-to-end process automation", "System integration", "Full digitalization"]
+    },
+    "addons_title": "Additional Services",
+    "addon1": "Monthly maintenance & support: 2-5M VND/month",
+    "addon2": "Hosting & domain management",
+    "addon3": "Staff software training",
+    "addon4": "Digital transformation strategy consulting",
+    "cta": "Contact for free consultation"
+  },
+  "portfolio": {
+    "title": "Our Projects",
+    "subtitle": "Projects we've completed and are currently developing",
+    "status_active": "In Progress",
+    "status_completed": "Completed",
+    "tech_label": "Technology",
+    "features_label": "Key Features",
+    "projects": {
+      "anh_tuyet": {
+        "name": "Anh Tuyet Cosmetics App",
+        "desc": "Multi-platform cosmetics sales app (Web + iOS + Android)",
+        "tech": ["React", "React Native", "Supabase", "Barcode Scanning"],
+        "features": ["Product & order management", "Customer management", "Barcode scanning", "Revenue reports"]
+      },
+      "pickleball": {
+        "name": "Pickleball Community App",
+        "desc": "Vietnam pickleball community social network",
+        "tech": ["React", "Firebase", "Spring Boot"],
+        "features": ["Player profiles", "Court finder & booking", "Leaderboard", "Community"]
+      },
+      "vkt_website": {
+        "name": "VKT Software Website",
+        "desc": "Multi-language business website (Vietnamese/English/French)",
+        "tech": ["Next.js", "React", "Tailwind", "Vercel"],
+        "features": ["Responsive design", "SEO-optimized", "Trilingual", "Contact form"]
+      }
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Sharing knowledge and experience about digital transformation",
+    "read_more": "Read More",
+    "back_to_blog": "Back to Blog",
+    "share": "Share",
+    "posts": {
+      "chuyen-doi-so-2026": {
+        "title": "5 Reasons Small Businesses Need Digital Transformation in 2026",
+        "excerpt": "Digital transformation is no longer optional, it's mandatory. Discover the 5 most important reasons.",
+        "date": "2026-04-10",
+        "author": "Nguyen Ngoc Tho",
+        "content": "## Why is digital transformation urgent?\n\nIn the rapidly growing digital economy, small businesses cannot stand aside. Here are 5 important reasons:\n\n### 1. Customers have gone digital\n\nOver 70% of Vietnamese consumers shop online. If your business isn't present in the digital environment, you're losing most of your potential customers.\n\n### 2. Reduce operating costs\n\nAutomating manual processes can reduce operating costs by up to 40%.\n\n### 3. Increase productivity\n\nDigital tools help employees work more efficiently.\n\n### 4. Data is an asset\n\nWhen everything is digitized, you have data to make accurate decisions.\n\n### 5. AI is changing the game\n\nAI is no longer far away. At reasonable costs, small businesses can leverage AI.\n\n**VKT Software** is ready to accompany you. Contact us for free consultation!"
+      },
+      "chi-phi-lam-app": {
+        "title": "Cost of Building a Sales App: What's Reasonable?",
+        "excerpt": "Learn the actual costs of developing a sales app suitable for SMEs in Vietnam.",
+        "date": "2026-04-05",
+        "author": "Nguyen Ngoc Tho",
+        "content": "## Cost of building a sales app in Vietnam\n\nOne of the most common questions: \"How much does it cost to build a sales app?\" The answer depends on many factors.\n\n### Factors affecting cost\n\n- Basic app: 15-30M VND\n- Medium app: 30-50M VND\n- Advanced app: 50-200M VND\n\nContact VKT Software for detailed consultation and pricing!"
+      },
+      "ai-cho-doanh-nghiep": {
+        "title": "AI for Small Businesses: No Longer Out of Reach",
+        "excerpt": "AI is not just for large corporations. Small businesses can fully leverage AI at reasonable costs.",
+        "date": "2026-03-28",
+        "author": "Nguyen Ngoc Tho",
+        "content": "## AI has never been closer\n\nMany small business owners think AI is only for large corporations. But reality has completely changed.\n\n### Practical AI applications for SMEs\n\n- Customer service chatbot\n- Process automation\n- Business data analytics\n- Smart marketing\n\nVKT Software specializes in AI solutions for SMEs. Contact us for free consultation!"
+      }
+    }
+  }
+}
