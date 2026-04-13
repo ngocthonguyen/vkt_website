@@ -11,7 +11,7 @@ export function middleware(request: NextRequest) {
     (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
 
-  if (pathnameHasLocale) return;
+  if (pathnameHasLocale) return NextResponse.next();
 
   // Skip internal Next.js paths and static files
   if (
@@ -19,7 +19,7 @@ export function middleware(request: NextRequest) {
     pathname.startsWith('/api') ||
     pathname.includes('.') // static files
   ) {
-    return;
+    return NextResponse.next();
   }
 
   // Redirect to default locale
