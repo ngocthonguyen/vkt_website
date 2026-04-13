@@ -246,46 +246,78 @@
   "pricing": {
     "title": "Bảng giá dịch vụ",
     "subtitle": "Giải pháp phù hợp cho mọi quy mô doanh nghiệp",
-    "starter": {
-      "name": "Gói Starter",
-      "price": "3–30 triệu/dự án",
-      "desc": "Dành cho hộ kinh doanh, cửa hàng nhỏ",
+    "website": {
+      "name": "Website & Hiện diện số",
+      "badge": "Bắt đầu nhanh",
+      "price": "3–15 triệu/dự án",
+      "timeline": "1–2 tuần",
+      "desc": "Dành cho hộ kinh doanh, cửa hàng nhỏ muốn có mặt trên internet",
       "features": [
-        "Website cơ bản, landing page",
-        "SEO cơ bản",
-        "Email doanh nghiệp",
-        "Setup Google Workspace"
+        "Website giới thiệu doanh nghiệp / landing page",
+        "SEO cơ bản để khách tìm thấy trên Google",
+        "Email doanh nghiệp chuyên nghiệp",
+        "Setup Google Workspace / Google Business Profile",
+        "Tích hợp Zalo, Facebook cơ bản"
       ]
     },
-    "business": {
-      "name": "Gói Business",
-      "price": "15–50 triệu/dự án",
+    "digitalization": {
+      "name": "Số hoá Quản lý & Vận hành",
+      "badge": "Phổ biến nhất",
       "popular": "Phổ biến nhất",
-      "desc": "Dành cho doanh nghiệp 5–50 nhân viên",
+      "price": "15–60 triệu/dự án",
+      "timeline": "3–6 tuần",
+      "desc": "Dành cho doanh nghiệp nhỏ muốn thay thế Excel/giấy tờ bằng phần mềm thông minh",
+      "usp": "Thay thế 5–10 file Excel bằng 1 app duy nhất — tiết kiệm 10+ giờ/tuần",
       "features": [
-        "App quản lý bán hàng, kho hàng",
-        "CRM đơn giản",
-        "Chatbot AI",
-        "Báo cáo tự động"
+        "Phần mềm quản lý bán hàng, đơn hàng, kho hàng",
+        "Quản lý khách hàng (CRM) đơn giản, hiệu quả",
+        "Quản lý nhân viên, chấm công, lương cơ bản",
+        "Báo cáo doanh thu, chi phí tự động",
+        "App mobile cho chủ doanh nghiệp (theo dõi mọi lúc)",
+        "Dashboard quản lý tổng quan real-time"
+      ]
+    },
+    "custom": {
+      "name": "Phần mềm & App theo yêu cầu",
+      "badge": "Tùy chỉnh 100%",
+      "price": "30–100 triệu/dự án",
+      "timeline": "4–10 tuần",
+      "desc": "Dành cho doanh nghiệp cần phần mềm riêng, thiết kế đúng theo quy trình của mình",
+      "features": [
+        "Phân tích yêu cầu và tư vấn giải pháp chi tiết",
+        "Thiết kế UI/UX chuyên nghiệp",
+        "Phát triển Web App + Mobile App (iOS & Android)",
+        "Tích hợp Chatbot AI hỗ trợ khách hàng",
+        "API tích hợp hệ thống hiện có (kế toán, ngân hàng, vận chuyển)",
+        "Bàn giao source code, đào tạo sử dụng"
       ]
     },
     "enterprise": {
-      "name": "Gói AI Transform",
-      "price": "50–200 triệu",
-      "desc": "Dành cho doanh nghiệp muốn chuyển đổi số nghiêm túc",
+      "name": "AI Transform & Tự động hoá",
+      "badge": "Enterprise",
+      "price": "80–250 triệu + SLA hàng tháng",
+      "timeline": "2–4 tháng",
+      "desc": "Dành cho doanh nghiệp muốn chuyển đổi số toàn diện với AI",
       "features": [
-        "AI Agents tùy chỉnh",
-        "Tự động hóa quy trình toàn diện",
-        "Tích hợp hệ thống",
-        "Số hóa end-to-end"
+        "AI Agents tùy chỉnh cho từng bộ phận (sales, CSKH, vận hành)",
+        "Tự động hóa quy trình end-to-end",
+        "Tích hợp hệ thống toàn doanh nghiệp (ERP-lite)",
+        "Business Intelligence & báo cáo AI",
+        "SLA hỗ trợ kỹ thuật ưu tiên",
+        "Tư vấn chiến lược công nghệ dài hạn"
       ]
     },
     "addons_title": "Dịch vụ bổ sung",
-    "addon1": "Bảo trì & support hàng tháng: 2–5 triệu/tháng",
-    "addon2": "Hosting & domain management",
+    "addon1": "Bảo trì & support hàng tháng: 2–8 triệu/tháng (tùy gói)",
+    "addon2": "Hosting, domain, SSL management",
     "addon3": "Training nhân viên sử dụng phần mềm",
-    "addon4": "Tư vấn chiến lược chuyển đổi số",
-    "cta": "Liên hệ tư vấn miễn phí"
+    "addon4": "Tư vấn chiến lược chuyển đổi số theo quý",
+    "addon5": "Nâng cấp, thêm tính năng mới",
+    "cta": "Liên hệ tư vấn miễn phí",
+    "bottom_cta_title": "Không biết chọn gói nào?",
+    "bottom_cta_desc": "Liên hệ tư vấn miễn phí — chúng tôi sẽ đề xuất giải pháp phù hợp nhất cho doanh nghiệp của bạn",
+    "bottom_cta_btn": "Tư vấn miễn phí ngay",
+    "timeline_label": "Thời gian"
   },
   "portfolio": {
     "title": "Dự án của chúng tôi",

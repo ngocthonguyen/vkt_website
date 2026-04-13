@@ -1,0 +1,90 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1e3a5f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0e7490;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#38bdf8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#67e8f9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    <!-- Decorative circles -->
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#38bdf8;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#38bdf8;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:0.12" />
+      <stop offset="100%" style="stop-color:#fbbf24;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+
+  <!-- Decorative glow circles -->
+  <ellipse cx="200" cy="150" rx="300" ry="300" fill="url(#glow1)" />
+  <ellipse cx="1050" cy="500" rx="280" ry="280" fill="url(#glow2)" />
+
+  <!-- Grid dots pattern -->
+  <g opacity="0.08">
+    <pattern id="dots" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1.5" fill="#ffffff" />
+    </pattern>
+    <rect width="1200" height="630" fill="url(#dots)" />
+  </g>
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="1200" height="4" fill="url(#textGrad)" />
+
+  <!-- Logo area — VKT text + icon -->
+  <g transform="translate(540, 170)">
+    <!-- VKT text -->
+    <text x="0" y="0" font-family="'Segoe UI', Arial, sans-serif" font-size="96" font-weight="900" fill="url(#textGrad)" text-anchor="middle" letter-spacing="8">VKT</text>
+    <!-- Underline accent -->
+    <rect x="-80" y="16" width="160" height="4" rx="2" fill="url(#accentGrad)" />
+  </g>
+
+  <!-- AI network icon (decorative) -->
+  <g transform="translate(700, 130)" opacity="0.7">
+    <circle cx="0" cy="0" r="8" fill="#38bdf8" />
+    <circle cx="40" cy="-20" r="6" fill="#38bdf8" />
+    <circle cx="40" cy="20" r="6" fill="#38bdf8" />
+    <circle cx="80" cy="0" r="8" fill="#38bdf8" />
+    <circle cx="20" cy="0" r="4" fill="#fbbf24" />
+    <circle cx="60" cy="0" r="4" fill="#fbbf24" />
+    <line x1="0" y1="0" x2="40" y2="-20" stroke="#38bdf8" stroke-width="2" opacity="0.6"/>
+    <line x1="0" y1="0" x2="40" y2="20" stroke="#38bdf8" stroke-width="2" opacity="0.6"/>
+    <line x1="40" y1="-20" x2="80" y2="0" stroke="#38bdf8" stroke-width="2" opacity="0.6"/>
+    <line x1="40" y1="20" x2="80" y2="0" stroke="#38bdf8" stroke-width="2" opacity="0.6"/>
+    <line x1="0" y1="0" x2="80" y2="0" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.4"/>
+  </g>
+
+  <!-- SOFTWARE text -->
+  <text x="600" y="340" font-family="'Segoe UI', Arial, sans-serif" font-size="36" font-weight="400" fill="#94a3b8" text-anchor="middle" letter-spacing="12">SOFTWARE</text>
+
+  <!-- Main tagline -->
+  <text x="600" y="420" font-family="'Segoe UI', Arial, sans-serif" font-size="30" font-weight="600" fill="#f1f5f9" text-anchor="middle">Giải pháp số hoá cho doanh nghiệp Việt Nam</text>
+
+  <!-- Sub tagline -->
+  <text x="600" y="470" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#64748b" text-anchor="middle">Digital Solutions for Vietnamese Businesses</text>
+
+  <!-- Bottom bar with badges -->
+  <g transform="translate(0, 530)">
+    <rect x="0" y="0" width="1200" height="100" fill="#0f172a" opacity="0.5" />
+    <!-- Badge 1 -->
+    <rect x="200" y="20" width="180" height="36" rx="18" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+    <text x="290" y="43" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#38bdf8" text-anchor="middle">20+ Năm Kinh nghiệm</text>
+    <!-- Badge 2 -->
+    <rect x="510" y="20" width="180" height="36" rx="18" fill="#1e293b" stroke="#fbbf24" stroke-width="1.5" />
+    <text x="600" y="43" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#fbbf24" text-anchor="middle">Chuyên gia Quốc tế</text>
+    <!-- Badge 3 -->
+    <rect x="820" y="20" width="180" height="36" rx="18" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+    <text x="910" y="43" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="600" fill="#38bdf8" text-anchor="middle">vktsoftware.com</text>
+  </g>
+</svg>

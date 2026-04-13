@@ -174,31 +174,78 @@
   "pricing": {
     "title": "Service Pricing",
     "subtitle": "Solutions tailored to every business size",
-    "starter": {
-      "name": "Starter Package",
-      "price": "3-8M VND/project",
-      "desc": "For small businesses and shops",
-      "features": ["Basic website, landing page", "Basic SEO", "Business email", "Google Workspace setup"]
+    "website": {
+      "name": "Website & Digital Presence",
+      "badge": "Quick Start",
+      "price": "3–15M VND/project",
+      "timeline": "1–2 weeks",
+      "desc": "For sole traders and small shops looking to establish an online presence",
+      "features": [
+        "Business website / landing page",
+        "Basic SEO to be found on Google",
+        "Professional business email",
+        "Google Workspace / Google Business Profile setup",
+        "Basic Zalo & Facebook integration"
+      ]
     },
-    "business": {
-      "name": "Business Package",
-      "price": "15-50M VND/project",
+    "digitalization": {
+      "name": "Operations Digitalization",
+      "badge": "Most Popular",
       "popular": "Most Popular",
-      "desc": "For businesses with 5-50 employees",
-      "features": ["Sales & inventory management app", "Simple CRM", "AI Chatbot", "Automated reports"]
+      "price": "15–60M VND/project",
+      "timeline": "3–6 weeks",
+      "desc": "For small businesses ready to replace Excel & paperwork with smart software",
+      "usp": "Replace 5–10 Excel files with 1 app — save 10+ hours per week",
+      "features": [
+        "Sales, order & inventory management software",
+        "Simple yet effective CRM",
+        "Staff management, attendance & payroll basics",
+        "Automated revenue & expense reports",
+        "Mobile app for business owners (monitor anytime)",
+        "Real-time management dashboard"
+      ]
+    },
+    "custom": {
+      "name": "Custom Software & Apps",
+      "badge": "100% Custom",
+      "price": "30–100M VND/project",
+      "timeline": "4–10 weeks",
+      "desc": "For businesses needing tailor-made software designed around their own processes",
+      "features": [
+        "Detailed requirement analysis & solution consulting",
+        "Professional UI/UX design",
+        "Web App + Mobile App development (iOS & Android)",
+        "AI Chatbot integration for customer support",
+        "API integration with existing systems (accounting, banking, logistics)",
+        "Source code handover & staff training"
+      ]
     },
     "enterprise": {
-      "name": "AI Transform Package",
-      "price": "50-200M VND",
-      "desc": "For businesses serious about digital transformation",
-      "features": ["Custom AI Agents", "End-to-end process automation", "System integration", "Full digitalization"]
+      "name": "AI Transform & Automation",
+      "badge": "Enterprise",
+      "price": "80–250M VND + monthly SLA",
+      "timeline": "2–4 months",
+      "desc": "For businesses ready for comprehensive digital transformation with AI",
+      "features": [
+        "Custom AI Agents for each department (sales, support, operations)",
+        "End-to-end process automation",
+        "Full enterprise system integration (ERP-lite)",
+        "Business Intelligence & AI reporting",
+        "Priority technical support SLA",
+        "Long-term technology strategy consulting"
+      ]
     },
     "addons_title": "Additional Services",
-    "addon1": "Monthly maintenance & support: 2-5M VND/month",
-    "addon2": "Hosting & domain management",
+    "addon1": "Monthly maintenance & support: 2–8M VND/month (varies by plan)",
+    "addon2": "Hosting, domain & SSL management",
     "addon3": "Staff software training",
-    "addon4": "Digital transformation strategy consulting",
-    "cta": "Contact for free consultation"
+    "addon4": "Quarterly digital transformation strategy consulting",
+    "addon5": "Feature upgrades & enhancements",
+    "cta": "Contact for free consultation",
+    "bottom_cta_title": "Not sure which plan fits you?",
+    "bottom_cta_desc": "Contact us for a free consultation — we'll recommend the best solution for your business",
+    "bottom_cta_btn": "Get Free Consultation",
+    "timeline_label": "Timeline"
   },
   "portfolio": {
     "title": "Our Projects",

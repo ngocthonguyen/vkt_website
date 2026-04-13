@@ -174,31 +174,78 @@
   "pricing": {
     "title": "Tarification des services",
     "subtitle": "Des solutions adaptées à toutes les tailles d'entreprises",
-    "starter": {
-      "name": "Pack Starter",
-      "price": "3-8M VND/projet",
-      "desc": "Pour les petites entreprises et boutiques",
-      "features": ["Site web basique, landing page", "SEO de base", "Email professionnel", "Configuration Google Workspace"]
+    "website": {
+      "name": "Site Web & Présence numérique",
+      "badge": "Démarrage rapide",
+      "price": "3–15M VND/projet",
+      "timeline": "1–2 semaines",
+      "desc": "Pour les commerçants et petites boutiques souhaitant exister sur internet",
+      "features": [
+        "Site web de présentation / landing page",
+        "SEO de base pour être trouvé sur Google",
+        "Email professionnel d'entreprise",
+        "Configuration Google Workspace / Google Business Profile",
+        "Intégration basique Zalo & Facebook"
+      ]
     },
-    "business": {
-      "name": "Pack Business",
-      "price": "15-50M VND/projet",
+    "digitalization": {
+      "name": "Digitalisation de la gestion",
+      "badge": "Le plus populaire",
       "popular": "Le plus populaire",
-      "desc": "Pour les entreprises de 5-50 employés",
-      "features": ["App de gestion des ventes et stocks", "CRM simple", "Chatbot IA", "Rapports automatisés"]
+      "price": "15–60M VND/projet",
+      "timeline": "3–6 semaines",
+      "desc": "Pour les petites entreprises prêtes à remplacer Excel et le papier par un logiciel intelligent",
+      "usp": "Remplacez 5 à 10 fichiers Excel par une seule application — économisez 10+ heures par semaine",
+      "features": [
+        "Logiciel de gestion des ventes, commandes et stocks",
+        "CRM simple et efficace",
+        "Gestion du personnel, présences et paie de base",
+        "Rapports automatisés revenus & dépenses",
+        "Application mobile pour le dirigeant (suivi en temps réel)",
+        "Tableau de bord de gestion en temps réel"
+      ]
+    },
+    "custom": {
+      "name": "Logiciels & Apps sur mesure",
+      "badge": "100% personnalisé",
+      "price": "30–100M VND/projet",
+      "timeline": "4–10 semaines",
+      "desc": "Pour les entreprises nécessitant un logiciel propre, conçu selon leurs processus",
+      "features": [
+        "Analyse détaillée des besoins et conseil en solution",
+        "Conception UI/UX professionnelle",
+        "Développement Web App + App Mobile (iOS & Android)",
+        "Intégration Chatbot IA pour le support client",
+        "API d'intégration avec systèmes existants (comptabilité, banque, logistique)",
+        "Remise du code source & formation du personnel"
+      ]
     },
     "enterprise": {
-      "name": "Pack AI Transform",
-      "price": "50-200M VND",
-      "desc": "Pour les entreprises sérieuses sur la transformation numérique",
-      "features": ["Agents IA personnalisés", "Automatisation complète des processus", "Intégration de systèmes", "Numérisation de bout en bout"]
+      "name": "AI Transform & Automatisation",
+      "badge": "Entreprise",
+      "price": "80–250M VND + SLA mensuel",
+      "timeline": "2–4 mois",
+      "desc": "Pour les entreprises prêtes pour une transformation numérique globale avec l'IA",
+      "features": [
+        "Agents IA personnalisés par département (ventes, support, opérations)",
+        "Automatisation des processus de bout en bout",
+        "Intégration complète des systèmes d'entreprise (ERP-lite)",
+        "Business Intelligence & rapports IA",
+        "SLA de support technique prioritaire",
+        "Conseil en stratégie technologique à long terme"
+      ]
     },
     "addons_title": "Services supplémentaires",
-    "addon1": "Maintenance & support mensuel : 2-5M VND/mois",
-    "addon2": "Gestion d'hébergement et de domaine",
+    "addon1": "Maintenance & support mensuel : 2–8M VND/mois (selon le forfait)",
+    "addon2": "Gestion hébergement, domaine & SSL",
     "addon3": "Formation du personnel aux logiciels",
-    "addon4": "Conseil en stratégie de transformation numérique",
-    "cta": "Contactez-nous pour une consultation gratuite"
+    "addon4": "Conseil trimestriel en stratégie de transformation numérique",
+    "addon5": "Mises à niveau et nouvelles fonctionnalités",
+    "cta": "Contactez-nous pour une consultation gratuite",
+    "bottom_cta_title": "Vous ne savez pas quel forfait choisir ?",
+    "bottom_cta_desc": "Contactez-nous pour une consultation gratuite — nous vous recommanderons la solution la mieux adaptée",
+    "bottom_cta_btn": "Consultation gratuite",
+    "timeline_label": "Délai"
   },
   "portfolio": {
     "title": "Nos Projets",
