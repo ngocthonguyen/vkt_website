@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import Providers from "@/components/Providers";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
+import FacebookPixel from "@/components/FacebookPixel";
 import { locales, type Locale } from "@/lib/i18n";
 
 const metadataMap: Record<Locale, { title: string; description: string }> = {
@@ -59,7 +61,7 @@ export async function generateMetadata({
       type: "website",
       images: [
         {
-          url: `${baseUrl}/images/og-image.png`,
+          url: `${baseUrl}/api/og`,
           width: 1200,
           height: 630,
           alt: "VKT Software - Digital Solutions",
@@ -70,7 +72,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title,
       description,
-      images: [`${baseUrl}/images/og-image.png`],
+      images: [`${baseUrl}/api/og`],
     },
     alternates: {
       canonical: `${baseUrl}/${locale}`,
@@ -80,6 +82,9 @@ export async function generateMetadata({
         fr: `${baseUrl}/fr`,
         "x-default": `${baseUrl}/vi`,
       },
+    },
+    verification: {
+      google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
     },
   };
 }
@@ -154,6 +159,8 @@ export default function LocaleLayout({
         />
       </head>
       <body className="min-h-screen bg-background antialiased">
+        <GoogleAnalytics />
+        <FacebookPixel />
         <Providers locale={locale}>
           <Header />
           <main>{children}</main>
