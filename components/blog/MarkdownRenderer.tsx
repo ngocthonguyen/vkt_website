@@ -105,7 +105,16 @@ export function extractHeadings(
 }
 
 export default function MarkdownRenderer({ content }: { content: string }) {
-  const blocks = content.split(/\n\n+/);
+  // Normalize: ensure headings, hr, and list/quote starts are on their own blocks
+  // by inserting blank lines around them when missing.
+  const normalized = content
+    // Blank line BEFORE heading / hr if previous line is non-empty
+    .replace(/([^\n])\n(#{2,4}\s)/g, "$1\n\n$2")
+    .replace(/([^\n])\n(---+\s*$)/gm, "$1\n\n$2")
+    // Blank line AFTER heading line if next line is non-empty and not another heading
+    .replace(/^(#{2,4}\s[^\n]+)\n(?!\n|#)/gm, "$1\n\n");
+
+  const blocks = normalized.split(/\n\n+/);
   const rendered: ReactNode[] = [];
 
   blocks.forEach((block, bi) => {
